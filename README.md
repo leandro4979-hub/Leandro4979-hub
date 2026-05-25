@@ -102,35 +102,17 @@ I love creating projects that feel futuristic, interactive, and unforgettable.
 
 ---
 
-# // FEATURED_PROJECTS
+# // CURRENT_FOCUS
 
-### ⚡ AI Research Framework
+My projects are currently under **active development and experimentation**. I'm focused on:
 
-An advanced experimentation environment for testing AI workflows, prompt systems, model orchestration, and automated evaluation pipelines.
+* 🤖 **AI Experimentation** - Building intelligent systems and exploring LLM applications
+* 🔧 **Automation Systems** - Creating smart workflows and developer tools
+* 🌌 **Futuristic UI/UX** - Designing immersive, interactive interfaces
+* 🚀 **Full Stack Applications** - End-to-end solutions with modern architecture
+* 🛠️ **Open-Source Tooling** - Contributing to the developer community
 
-**Tech Stack:** Python • SQLite • OpenRouter • Prompt Engineering
-
-[View Repository](#) | [Live Demo](#)
-
----
-
-### 🌌 Interactive UI Systems
-
-Experimental frontend interfaces with animated components, custom browser effects, immersive transitions, and futuristic interactions.
-
-**Tech Stack:** JavaScript • CSS • React • Browser APIs
-
-[View Repository](#) | [Live Demo](#)
-
----
-
-### 🤖 Automation Lab
-
-A collection of automation systems, developer tools, terminal workflows, and intelligent scripting environments.
-
-**Tech Stack:** Python • Bash • Node.js • APIs
-
-[View Repository](#) | [Live Demo](#)
+**Public repositories and live demos** will be added progressively as systems become **production-ready**.
 
 ---
 
@@ -149,13 +131,25 @@ A collection of automation systems, developer tools, terminal workflows, and int
 
 <div align="center">
 
-📧 **Email:** [your.email@example.com](mailto:your.email@example.com)
+**📧 Email**
+[Leandro4979@icloud.com](mailto:Leandro4979@icloud.com)
 
-🔗 **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+**💬 Discord**
+[Join Server](https://discord.gg/tj3JzxF6)
 
-🐦 **Twitter:** [@yourhandle](https://twitter.com/yourhandle)
+**🔗 GitHub**
+[github.com/leandro4979-hub](https://github.com/leandro4979-hub)
 
-🌐 **Portfolio:** [yourwebsite.com](https://yourwebsite.com)
+**💼 LinkedIn**
+Coming soon 🚀
+
+**🐦 Twitter / X**
+Coming soon ⚡
+
+**🌐 Portfolio**
+In development — building something futuristic 👨‍💻
+
+<br>
 
 <img src="https://komarev.com/ghpvc/?username=leandro4979-hub&label=Profile%20Views&color=6EE7FF&style=for-the-badge" />
 
@@ -170,6 +164,12 @@ A collection of automation systems, developer tools, terminal workflows, and int
 ⚡ **"Code is no longer just functionality.**
 
 **It's an experience."** ⚡
+
+<br>
+
+🔥 **More legendary projects coming soon** 🔥
+
+Thanks for checking out my profile! Stay tuned for innovation.
 
 <br>
 
