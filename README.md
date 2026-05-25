@@ -1,12 +1,28 @@
-# Hey there! 👋 I'm Leandro
+<h1 align="center">⚡ Leandro Joel ⚡</h1>
 
-Welcome to my GitHub profile! I'm a passionate developer and open-source enthusiast constantly exploring new technologies and building innovative solutions.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;AI+Researcher;Open+Source+Builder;Cyberpunk+Engineer" />
+</p>
+
+<p align="center">
+  Full Stack Developer • Open Source • AI Experimentation
+</p>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=leandro4979-hub&label=Profile%20Views&color=blueviolet&style=flat" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=leandro4979-hub&theme=radical&no-frame=true&margin-w=10" />
+</p>
 
 ---
 
 ## 🚀 About Me
 
-I love collaborating on projects that make an impact and pushing the boundaries of what's possible with code. My journey in tech is driven by curiosity, creativity, and a commitment to continuous learning. Whether it's building scalable applications, crafting elegant solutions, or mentoring fellow developers, I'm always ready for the next challenge.
+I'm a passionate Full Stack Developer and AI enthusiast exploring the cutting edge of technology. My focus is on building scalable applications, contributing to open-source projects, and experimenting with AI/ML solutions. I believe in the power of code to transform ideas into reality.
 
 ---
 
@@ -16,6 +32,7 @@ I love collaborating on projects that make an impact and pushing the boundaries 
 **Frontend:** React, Vue.js, Tailwind CSS, HTML/CSS  
 **Backend:** Node.js, Express, Django, Spring Boot  
 **Databases:** PostgreSQL, MongoDB, Redis  
+**AI/ML:** TensorFlow, PyTorch, OpenAI APIs, LangChain  
 **Tools & Platforms:** Git, Docker, AWS, GitHub Actions, VS Code
 
 ---
@@ -25,6 +42,12 @@ I love collaborating on projects that make an impact and pushing the boundaries 
 ![Leandro's GitHub Stats](https://github-readme-stats.vercel.app/api?username=leandro4979-hub&show_icons=true&theme=radical)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=leandro4979-hub&layout=compact&theme=radical)
+
+---
+
+## 📈 Activity Graph
+
+[![Leandro's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=leandro4979-hub&theme=react-dark)](https://github.com/leandro4979-hub)
 
 ---
 
@@ -44,6 +67,16 @@ Another highlight project with meaningful contribution and innovative features.
 A third notable project showcasing your expertise and creativity.
 
 **[View Repository](https://github.com/leandro4979-hub/project-three)** | **[Live Demo](https://example.com)**
+
+---
+
+## 🤖 AI & Research Interests
+
+- Large Language Models (LLMs)
+- Machine Learning & Deep Learning
+- Computer Vision
+- Natural Language Processing
+- Cybersecurity & Ethical AI
 
 ---
 
@@ -72,6 +105,7 @@ I'm always interested in discussing new ideas, collaborating on exciting project
 - 📚 Avid reader of tech blogs and documentation
 - 🎵 Music lover who codes better with lo-fi beats
 - 🌍 Passionate about open-source and community
+- 💻 Cyberpunk enthusiast and futuristic tech explorer
 
 ---
 
@@ -81,8 +115,4 @@ I'm open to contributing to interesting projects and collaborating with talented
 
 ---
 
-<div align="center">
-  
-  **Thanks for visiting my profile! Don't forget to star ⭐ any projects you find useful!**
-  
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:8A2BE2&height=120&section=footer"/>
