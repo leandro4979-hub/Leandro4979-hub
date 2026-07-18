@@ -1,91 +1,49 @@
-<h1 align="center">Leandro Fajardo</h1>
-<p align="center"><strong>Architecting human-centered AI systems, orchestration engines, and product-grade developer infrastructure.</strong></p>
+# Leandro Fajardo
 
-<p align="center">
-  <a href="https://github.com/leandro4979-hub?tab=repositories">Repositories</a>
-  <span> | </span>
-  <a href="https://github.com/leandro4979-hub/caRINA">Flagship: CARINA</a>
-</p>
+I build practical AI systems, iOS tooling, and developer automation for reliable software delivery.
 
----
+## What I Build
 
-## Narrative
+- AI agent workflows for real engineering tasks
+- iOS and bridge integrations for device-ready usage
+- Operational automation for deployment confidence
 
-I build systems where autonomous behavior, human trust, and operational reliability meet.
+## Focus
 
-My work is not organized as isolated demos. It is built as an ecosystem: local-first agent workflows, orchestration layers, interface surfaces, and delivery tooling that can evolve together under real constraints.
+- AI agent workflows and orchestration
+- iOS development and device-ready workflows
+- Reliable automation for day-to-day engineering
 
-The goal is simple: ship AI systems that serious builders can extend, reason about, and run with confidence.
+## Current Work
 
----
+- CARINA: local AI engineering workflows with bridge services and iOS integration
+- Deployment and verification automation for repeatable releases
+- Structured system logging and developer observability
 
-## Flagship Architecture
+## Tech
 
-### CARINA Ecosystem
+Python, Swift, iOS, API integrations, test automation, GitHub workflows
 
-CARINA is the core program: a living architecture for local AI engineering, iOS integration, bridge services, and repeatable operational workflows.
+## Reliability Signals
 
-- Local-first automation and command surfaces
-- Bridge and orchestration patterns designed for extension
-- Build and deployment workflows shaped for reliability, not novelty
+- Verification-first workflow before merge
+- Operational scripts with clear runbooks
+- Test coverage on critical automation paths
 
-This is the foundation layer where product direction and systems discipline converge.
+## Principles
 
----
+- Build for reliability first
+- Keep systems observable
+- Prefer simple, repeatable workflows
 
-## Curated Systems
+## Featured Projects
 
-A focused set of repositories that represent architectural depth and forward direction.
+- CARINA: local AI and iOS tooling stack
+- Automation scripts for deployment readiness
+- Dashboard and operational status tooling
 
-### 1) [caRINA](https://github.com/leandro4979-hub/caRINA)
-End-to-end AI engineering environment with bridge services, iOS pathways, testing discipline, and operational tooling.
+## Contact
 
-### 2) [carina-command-center](https://github.com/leandro4979-hub/carina-command-center)
-Interface and control surface concept for multi-agent command workflows, designed with clear operator intent and modular growth in mind.
-
-### 3) [maya-orchestration-engine](https://github.com/leandro4979-hub/maya-orchestration-engine)
-Risk-aware orchestration engine for macOS with authenticated relay architecture and feedback channels.
-
-### 4) [codex-click-guide](https://github.com/leandro4979-hub/codex-click-guide)
-Native macOS guidance system focused on accessible assistant handoffs and human-in-the-loop execution reliability.
-
-### 5) [neuralforge](https://github.com/leandro4979-hub/neuralforge)
-Experimental AI systems workspace where orchestration ideas are tested before product integration.
-
-### 6) [neuralforge-v1](https://github.com/leandro4979-hub/neuralforge-v1)
-TypeScript-first iteration of the Neuralforge track, emphasizing modular architecture and implementation velocity.
-
----
-
-## Design Philosophy
-
-I optimize for:
-
-- Systems that remain legible as they scale
-- Interfaces that respect operator cognition
-- Automation that improves trust rather than hiding complexity
-- Architecture that invites strong collaborators into a shared direction
-
----
-
-## Current Direction
-
-The active focus is turning CARINA into a cohesive platform where:
-
-- orchestration is policy-aware,
-- interfaces are intentional and accessible,
-- and delivery pipelines remain predictable under pressure.
-
-If this resonates with how you build, you are looking at an open, evolving architecture rather than a closed portfolio.
-
----
-
-## Collaboration
-
-I am most interested in collaborating with engineers and designers who care about:
-
-- agent orchestration and control systems
-- high-trust AI product design
-- durable developer tooling with real operational value
-
-Open an issue or discussion on a relevant repository to start the conversation.
+- Open an issue in a project repo for collaboration
+- Use GitHub Discussions where enabled
+- For serious collaboration, include context, expected outcome, and timeline in the first message
