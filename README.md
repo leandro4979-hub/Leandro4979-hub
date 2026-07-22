@@ -1,49 +1,52 @@
 # Leandro Fajardo
 
-I build practical AI systems, iOS tooling, and developer automation for reliable software delivery.
+### I build AI systems that leave the demo and do real work.
 
-## What I Build
+Native iOS experiences, autonomous agent workflows, device bridges, and verification-first automation. My current focus is CARINA and MAYA: a family of tools designed around privacy, human control, and reliable execution.
 
-- AI agent workflows for real engineering tasks
-- iOS and bridge integrations for device-ready usage
-- Operational automation for deployment confidence
+## Featured work
 
-## Focus
+### [CARINA x MAYA TYPE](https://github.com/leandro4979-hub/carina-maya-type)
 
-- AI agent workflows and orchestration
-- iOS development and device-ready workflows
-- Reliable automation for day-to-day engineering
+Two native iOS keyboard experiences in one verified suite.
 
-## Current Work
+- CARINA uses Apple's on-device Foundation Models for user-requested replies and rewrites on supported iOS 26+ devices.
+- MAYA delivers fast deterministic, context-aware prepared replies.
+- Both keyboard extensions keep Full Access disabled and leave final insertion to the user.
+- Includes dual-project CI, privacy checks, evidence-based documentation, and four specialized repository agents.
 
-- CARINA: local AI engineering workflows with bridge services and iOS integration
-- Deployment and verification automation for repeatable releases
-- Structured system logging and developer observability
+### [CARINA AI Command Center](https://github.com/leandro4979-hub/carina-command-center)
 
-## Tech
+A control surface for agent operations, system visibility, and practical AI workflows.
 
-Python, Swift, iOS, API integrations, test automation, GitHub workflows
+### [MAYA Orchestration Engine](https://github.com/leandro4979-hub/maya-orchestration-engine)
 
-## Reliability Signals
+An orchestration layer for routing work, coordinating tools, and building repeatable agent behavior.
 
-- Verification-first workflow before merge
-- Operational scripts with clear runbooks
-- Test coverage on critical automation paths
+### [Codex Click Guide](https://github.com/leandro4979-hub/codex-click-guide)
 
-## Principles
+A macOS-native accessibility aid that turns required clicks and approvals into large, high-contrast, spoken guidance.
 
-- Build for reliability first
-- Keep systems observable
-- Prefer simple, repeatable workflows
+## How I work
 
-## Featured Projects
+```text
+Observe the real system -> build the smallest complete change -> verify it -> document the evidence -> repeat
+```
 
-- CARINA: local AI and iOS tooling stack
-- Automation scripts for deployment readiness
-- Dashboard and operational status tooling
+- Real integrations over simulated behavior
+- Privacy boundaries stated precisely
+- Native Swift and macOS tools where they make the system simpler
+- Explicit error handling, logging, and reproducible checks
+- Human approval for consequential actions
 
-## Contact
+## Current stack
 
-- Open an issue in a project repo for collaboration
-- Use GitHub Discussions where enabled
-- For serious collaboration, include context, expected outcome, and timeline in the first message
+`Swift` `SwiftUI` `UIKit` `Foundation Models` `Python` `GitHub Actions` `macOS automation` `iOS extensions` `API integrations`
+
+## Agent-ready repositories
+
+My flagship repositories include concise project context, automated verification, and focused agent roles. In CARINA x MAYA TYPE, the agent team covers builds, privacy review, documentation evidence, and release preparation while keeping publication and App Store actions under human control.
+
+## Collaboration
+
+Open an issue in the relevant repository with the problem, expected outcome, and environment. I am especially interested in privacy-first AI, accessibility, iOS tooling, and dependable agent systems.
