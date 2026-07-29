@@ -10,7 +10,7 @@
 [![CARINA](https://img.shields.io/badge/FLAGSHIP-CARINA-00d4ff?style=for-the-badge)](https://github.com/leandro4979-hub?tab=repositories&q=carina)
 [![Open to collaboration](https://img.shields.io/badge/STATUS-BUILDING-22c55e?style=for-the-badge)](#connect)
 
-`AI AGENTS` · `APPLE PLATFORMS` · `AUTOMATION` · `PRIVACY` · `HUMAN CONTROL`
+`AI AGENTS` · `OPENCLAW` · `APPLE PLATFORMS` · `AUTOMATION` · `PRIVACY` · `HUMAN CONTROL`
 
 </div>
 
@@ -158,6 +158,25 @@ Issues and collaborations can influence what gets tested, connected, and shipped
 | [**CARINA × MAYA TYPE**](https://github.com/leandro4979-hub/carina-maya-type) | Private, native intelligence on iOS |
 | [**MAYA Orchestration Engine**](https://github.com/leandro4979-hub/maya-orchestration-engine) | Risk-aware tool and device coordination |
 | [**Codex Click Guide**](https://github.com/leandro4979-hub/codex-click-guide) | Accessible human–agent handoffs |
+
+## OpenClaw × CARINA
+
+[![OpenClaw](https://img.shields.io/badge/OPENCLAW-COMPATIBILITY_LAB-f97316?style=for-the-badge)](https://github.com/openclaw/openclaw)
+[![Discuss integration](https://img.shields.io/badge/PROPOSE_AN_INTEGRATION-111827?style=for-the-badge&logo=github)](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=idea.yml&title=%5BOpenClaw%5D%3A+)
+
+[OpenClaw](https://github.com/openclaw/openclaw) is an open-source personal AI assistant designed to run across operating systems and platforms. The compatibility direction I am exploring is a clean boundary between its agent runtime and the CARINA/MAYA control model:
+
+```text
+OPENCLAW RUNTIME
+      ↓
+CARINA AUTHORIZATION  →  explicit scope · human approval · policy
+      ↓
+MAYA EXECUTION        →  native Apple workflows · tools · devices
+      ↓
+VERIFICATION          →  evidence · recovery · audit trail
+```
+
+This is a **compatibility direction, not a finished integration**. If you build with OpenClaw and care about safer execution, native Apple control, or verifiable agent actions, signal the use case through the integration link above.
 
 <details>
 <summary><strong>Live GitHub signal</strong></summary>

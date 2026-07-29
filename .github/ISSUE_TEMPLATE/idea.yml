@@ -23,6 +23,16 @@ body:
     attributes:
       label: Evidence or examples
       description: Add links, screenshots, prior art, or observations if available.
+  - type: dropdown
+    id: ecosystem
+    attributes:
+      label: Ecosystem
+      options:
+        - OpenClaw
+        - CARINA / MAYA
+        - Apple platforms
+        - General agent tooling
+        - Other
   - type: checkboxes
     id: principles
     attributes:
