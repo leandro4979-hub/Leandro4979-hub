@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/command-center-2027.png" alt="Leandro Fajardo — AI systems command center" width="100%" />
+<img src="./assets/command-center-2027.gif" alt="Leandro Fajardo — animated AI systems command center" width="100%" />
 
 # LEANDRO FAJARDO
 
