@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" role="img" aria-labelledby="title desc">
+  <title id="title">Live build signal</title>
+  <desc id="desc">Animated signal showing active work across private AI, Apple platforms, agents, and automation.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d4ff" stop-opacity="0"/>
+      <stop offset=".3" stop-color="#00d4ff"/>
+      <stop offset=".7" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .t{fill:#dce7ff;font:600 13px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:1.5px}
+      .s{fill:#7380a4;font:11px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:1px}
+      .scan{animation:scan 4.5s ease-in-out infinite}
+      .blink{animation:blink 2.4s ease-in-out infinite}
+      @keyframes scan{0%{transform:translateX(-220px);opacity:0}15%,75%{opacity:1}100%{transform:translateX(1320px);opacity:0}}
+      @keyframes blink{0%,100%{opacity:.25}50%{opacity:1}}
+      @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <rect width="1200" height="110" rx="18" fill="#090d18" stroke="#222b47"/>
+  <path d="M28 55H1172" stroke="#202945"/>
+  <path d="M28 55H1172" stroke="url(#line)" stroke-width="2"/>
+  <g class="scan" filter="url(#glow)">
+    <circle cx="0" cy="55" r="6" fill="#fff"/>
+    <path d="M-125 55H0" stroke="#00d4ff" stroke-width="3"/>
+  </g>
+  <circle class="blink" cx="48" cy="27" r="4" fill="#22c55e"/>
+  <text x="62" y="32" class="t">LIVE BUILD SIGNAL</text>
+  <text x="48" y="84" class="s">PRIVATE AI</text>
+  <text x="335" y="84" class="s">APPLE NATIVE</text>
+  <text x="655" y="84" class="s">AGENT CONTROL</text>
+  <text x="965" y="84" class="s">VERIFIED AUTOMATION</text>
+</svg>

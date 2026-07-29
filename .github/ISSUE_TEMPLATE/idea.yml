@@ -1,0 +1,44 @@
+name: Signal an idea
+description: Share a concrete problem or product idea that fits the mission.
+title: "[Idea]: "
+labels:
+  - idea
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Who experiences this problem, and what happens today?
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Desired change
+      description: Describe the smallest valuable outcome.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or examples
+      description: Add links, screenshots, prior art, or observations if available.
+  - type: dropdown
+    id: ecosystem
+    attributes:
+      label: Ecosystem
+      options:
+        - OpenClaw
+        - CARINA / MAYA
+        - Apple platforms
+        - General agent tooling
+        - Other
+  - type: checkboxes
+    id: principles
+    attributes:
+      label: System principles
+      options:
+        - label: This idea can preserve human control.
+          required: true
+        - label: This idea can be tested or verified.
+          required: true
