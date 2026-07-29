@@ -1,0 +1,43 @@
+name: Build together
+description: Propose a focused collaboration around AI agents, Apple platforms, or automation.
+title: "[Collaboration]: "
+labels:
+  - collaboration
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out. A concrete outcome makes it much easier to find the right path.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Privacy-first AI
+        - Apple platforms
+        - Agent orchestration
+        - Accessibility
+        - Developer automation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What should exist or work when this collaboration succeeds?
+      placeholder: A user can...
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: What you bring
+      description: Share the skills, context, code, design, testing, or distribution you can contribute.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints and timing
+      description: Note any platform, privacy, licensing, or schedule constraints.
