@@ -111,6 +111,45 @@ METHOD          Build → Verify → Document → Improve
 - Building reliable handoffs between humans, agents, apps, and devices
 - Turning experimental automation into testable product systems
 
+<div align="center">
+<img src="./assets/live-signal.svg" alt="Live build signal across private AI, Apple platforms, agent control, and verified automation" width="100%" />
+</div>
+
+## Why follow
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### See the build
+
+Architecture, prototypes, and the decisions behind CARINA and MAYA as they move from experiments into systems.
+
+</td>
+<td width="33%" valign="top">
+
+### Steal the patterns
+
+Practical ideas for permission boundaries, verification, native automation, and human–agent handoffs.
+
+</td>
+<td width="33%" valign="top">
+
+### Shape the direction
+
+Issues and collaborations can influence what gets tested, connected, and shipped next.
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+[![Follow the build](https://img.shields.io/badge/FOLLOW_THE_BUILD-7c3aed?style=for-the-badge&logo=github&logoColor=white)](https://github.com/leandro4979-hub)
+[![Propose an idea](https://img.shields.io/badge/SIGNAL_AN_IDEA-00a6c7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new/choose)
+
+</div>
+
 ## Explore the system
 
 | Enter here | If you want to see |
