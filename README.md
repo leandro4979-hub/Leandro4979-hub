@@ -1,119 +1,132 @@
-
 <div align="center">
 
-# Leandro Fajardo
+<img src="./assets/command-center-2027.png" alt="Leandro Fajardo — AI systems command center" width="100%" />
 
-### Privacy-first AI systems · Native Apple tooling · Reliable developer automation
+# LEANDRO FAJARDO
 
-[![GitHub followers](https://img.shields.io/github/followers/leandro4979-hub?style=flat&label=Followers)](https://github.com/leandro4979-hub?tab=followers)
-[![Public repos](https://img.shields.io/badge/Public%20Repos-100+-2F5233?style=flat)](https://github.com/leandro4979-hub?tab=repositories)
+### Building private AI systems that can think, act, and prove what they did.
+
+[![Follow](https://img.shields.io/github/followers/leandro4979-hub?label=Follow&style=for-the-badge&logo=github&color=7c3aed)](https://github.com/leandro4979-hub?tab=followers)
+[![CARINA](https://img.shields.io/badge/FLAGSHIP-CARINA-00d4ff?style=for-the-badge)](https://github.com/leandro4979-hub?tab=repositories&q=carina)
+[![Open to collaboration](https://img.shields.io/badge/STATUS-BUILDING-22c55e?style=for-the-badge)](#connect)
+
+`AI AGENTS` · `APPLE PLATFORMS` · `AUTOMATION` · `PRIVACY` · `HUMAN CONTROL`
 
 </div>
 
-I build systems that move beyond demos: **AI agents, iOS/macOS automation, orchestration, device bridges, and verification-first workflows**.
-
-My current focus is **CARINA + MAYA** — a family of tools designed around privacy, explicit authorization, human control, and dependable execution.
-
 ---
 
-## 🚀 Featured Projects
+## The mission
 
-| Project | Stack | Description |
-|---------|-------|-------------|
-| [**CARINA × MAYA TYPE**](https://github.com/leandro4979-hub/carina-maya-type) | Swift | Privacy-first iOS keyboard suite — CARINA uses on-device Foundation Models; MAYA delivers deterministic contextual replies |
-| [**CARINA Command Center**](https://github.com/leandro4979-hub/carina-command-center) | TypeScript | Human-centered multi-agent command center interface concept |
-| [**MAYA Orchestration Engine**](https://github.com/leandro4979-hub/maya-orchestration-engine) | Python | Risk-aware macOS voice orchestration with native feedback and authenticated private relay |
-| [**Codex Click Guide**](https://github.com/leandro4979-hub/codex-click-guide) | Swift | Native macOS visual and spoken click guidance for accessible assistant handoffs |
-| [**Shortcuts Playground**](https://github.com/leandro4979-hub/shortcuts-playground-plugin) | Python | Claude Code & Codex plugin for building, validating, and signing macOS/iOS Shortcuts |
-| [**World Room**](https://github.com/leandro4979-hub/-world-room) | — | Experimental workspace for connected AI and automation concepts |
-| [**CTRL-AI**](https://github.com/leandro4979-hub/CTRL-AI) | HTML | Prompt-based governance framework for upgrading LLMs into self-correcting strategic engines |
+I build the layer between **AI intent** and **real-world execution**.
 
----
+My work explores agents that can understand context, coordinate tools, operate across Apple devices, and remain accountable to the person in control. The goal is not another chat demo. It is dependable software with permissions, verification, recovery, and an audit trail.
 
-## 🧠 Current Architecture
+> **2027 mode:** local-first intelligence, explicit authority, observable execution.
 
 ```text
-CARINA / MAYA
-  ↓
-Perception + Intent
-  ↓
-Planning / Orchestration
-  ↓
-Permission & Safety Checks
-  ↓
-Tool / Device Execution
-  ↓
-Verification + Audit Trail
+YOU
+ │
+ ▼
+CARINA / MAYA ──► perceive ──► plan ──► authorize ──► act ──► verify
+                                      ▲                         │
+                                      └──── human control ──────┘
 ```
 
-**Active priorities:**
+## Flagship systems
 
-- **CARINA OS** — agent architecture and execution controls
-- **MAYA** — orchestration and interaction workflows
-- **iOS + macOS automation** — Shortcuts, native Swift tooling, device bridges
-- **Agent reliability** — approvals, validation, logging, reproducible tests
-- **Local-first AI** — practical workflows that preserve privacy
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
+### [CARINA × MAYA TYPE](https://github.com/leandro4979-hub/carina-maya-type)
 
-## 🛠️ Tech Stack
+Privacy-first iOS keyboard intelligence. CARINA uses on-device models; MAYA provides deterministic contextual replies.
 
-| Domain | Technologies |
-|--------|-------------|
-| **Languages** | Swift · Python · TypeScript · JavaScript · Bash |
-| **Apple Platforms** | SwiftUI · UIKit · Apple Shortcuts · App Intents · macOS Automation |
-| **AI / Agents** | OpenAI APIs · WebSockets · On-device Foundation Models · OpenCV |
-| **Infrastructure** | Docker · GitHub Actions · REST APIs |
+`Swift` `iOS` `Foundation Models`
 
----
+</td>
+<td width="50%" valign="top">
 
-## ⚙️ Engineering Approach
+### [CARINA Command Center](https://github.com/leandro4979-hub/carina-command-center)
+
+A human-centered interface for coordinating multiple agents, permissions, tasks, and execution state.
+
+`TypeScript` `Agent UX` `Orchestration`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [MAYA Orchestration Engine](https://github.com/leandro4979-hub/maya-orchestration-engine)
+
+Risk-aware macOS voice orchestration with native feedback and an authenticated private relay.
+
+`Python` `macOS` `Voice`
+
+</td>
+<td width="50%" valign="top">
+
+### [Codex Click Guide](https://github.com/leandro4979-hub/codex-click-guide)
+
+Native visual and spoken guidance for accessible, precise assistant-to-human handoffs.
+
+`Swift` `Accessibility` `macOS`
+
+</td>
+</tr>
+</table>
+
+## What I optimize for
+
+| Principle | What it means in practice |
+|---|---|
+| **Private by default** | Prefer on-device processing and narrowly scoped data access |
+| **Human authority** | Consequential actions require clear permission |
+| **Verified execution** | A system should confirm the result, not merely report an attempt |
+| **Native experience** | Use platform capabilities instead of wrapping everything in a web view |
+| **Recoverable systems** | Errors are visible, bounded, and designed for safe recovery |
+
+## Operating stack
 
 ```text
-Observe → Define the smallest complete change → Build → Verify → Document → Repeat
+LANGUAGES       Swift · Python · TypeScript · JavaScript
+INTERFACES      SwiftUI · UIKit · App Intents · Apple Shortcuts
+INTELLIGENCE    OpenAI APIs · On-device Foundation Models · OpenCV
+SYSTEMS         WebSockets · REST · Docker · GitHub Actions
+METHOD          Build → Verify → Document → Improve
 ```
 
-- Real integrations over simulated behavior
-- Clear permission and privacy boundaries
-- Explicit error handling and auditability
-- Human approval for consequential actions
-- Small, testable vertical slices
-- Documentation backed by working evidence
+## Now
 
----
+- Architecting **CARINA OS** as a controlled agent execution layer
+- Connecting **MAYA** orchestration to native Apple workflows
+- Building reliable handoffs between humans, agents, apps, and devices
+- Turning experimental automation into testable product systems
 
 <details>
-<summary>📊 GitHub Activity</summary>
-<br>
+<summary><strong>Live GitHub signal</strong></summary>
+<br />
 
 <div align="center">
 
-![Leandro's GitHub stats](https://github-readme-stats.vercel.app/api?username=leandro4979-hub&show_icons=true&hide_border=true&rank_icon=github)
-
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=leandro4979-hub&layout=compact&hide_border=true)
-
-![GitHub streak](https://streak-stats.demolab.com?user=leandro4979-hub&hide_border=true)
+![Leandro's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=leandro4979-hub&bg_color=0d1117&color=8b5cf6&line=00d4ff&point=ffffff&area=true&hide_border=true)
 
 </div>
-
-> Stats cards use third-party services and may occasionally be unavailable even when GitHub is working normally.
-
 </details>
 
 ---
 
-## 🤝 Collaboration
+<div id="connect" align="center">
 
-Open an issue in the relevant repository with the **problem, expected outcome, and environment**.
+## Build the next interface with me.
 
-I'm especially interested in **AI agents, privacy-first automation, accessibility, iOS/macOS tooling, orchestration, and dependable human-in-the-loop systems**.
+If you care about private AI, native Apple tooling, accessible automation, or dependable agents, explore a project and open an issue with the problem you want to solve.
 
----
+[![Explore projects](https://img.shields.io/badge/EXPLORE_THE_LAB-111827?style=for-the-badge&logo=github)](https://github.com/leandro4979-hub?tab=repositories)
+[![Start a conversation](https://img.shields.io/badge/START_A_CONVERSATION-7c3aed?style=for-the-badge&logo=github)](https://github.com/leandro4979-hub/Leandro4979-hub/issues)
 
-<div align="center">
-
-**Currently building:** CARINA — a controlled AI automation and agent platform.
-
-<!-- PROFILE_REFRESH: 2026-07-28 -->
+**Leandro Fajardo** · designing the control layer for intelligent software
 
 </div>
