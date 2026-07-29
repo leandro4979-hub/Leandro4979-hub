@@ -2,10 +2,10 @@
 
 # Leandro Fajardo
 
-### Building practical AI agents, automation systems, and native Apple tooling.
+### Privacy-first AI systems · Native Apple tooling · Reliable developer automation
 
 [![GitHub followers](https://img.shields.io/github/followers/leandro4979-hub?style=flat&label=Followers)](https://github.com/leandro4979-hub?tab=followers)
-[![Profile views](https://komarev.com/ghpvc/?username=leandro4979-hub&label=Profile%20views)](https://github.com/leandro4979-hub)
+[![Public repos](https://img.shields.io/badge/Public%20Repos-100+-2F5233?style=flat)](https://github.com/leandro4979-hub?tab=repositories)
 
 </div>
 
@@ -13,32 +13,23 @@ I build systems that move beyond demos: **AI agents, iOS/macOS automation, orche
 
 My current focus is **CARINA + MAYA** — a family of tools designed around privacy, explicit authorization, human control, and dependable execution.
 
+---
+
 ## 🚀 Featured Projects
 
-### [CARINA × MAYA TYPE](https://github.com/leandro4979-hub/carina-maya-type)
-Native iOS keyboard experiences focused on fast, privacy-conscious AI-assisted communication.
+| Project | Stack | Description |
+|---------|-------|-------------|
+| [**CARINA × MAYA TYPE**](https://github.com/leandro4979-hub/carina-maya-type) | Swift | Privacy-first iOS keyboard suite — CARINA uses on-device Foundation Models; MAYA delivers deterministic contextual replies |
+| [**CARINA Command Center**](https://github.com/leandro4979-hub/carina-command-center) | TypeScript | Human-centered multi-agent command center interface concept |
+| [**MAYA Orchestration Engine**](https://github.com/leandro4979-hub/maya-orchestration-engine) | Python | Risk-aware macOS voice orchestration with native feedback and authenticated private relay |
+| [**Codex Click Guide**](https://github.com/leandro4979-hub/codex-click-guide) | Swift | Native macOS visual and spoken click guidance for accessible assistant handoffs |
+| [**Shortcuts Playground**](https://github.com/leandro4979-hub/shortcuts-playground-plugin) | Python | Claude Code & Codex plugin for building, validating, and signing macOS/iOS Shortcuts |
+| [**World Room**](https://github.com/leandro4979-hub/-world-room) | — | Experimental workspace for connected AI and automation concepts |
+| [**CTRL-AI**](https://github.com/leandro4979-hub/CTRL-AI) | HTML | Prompt-based governance framework for upgrading LLMs into self-correcting strategic engines |
 
-- CARINA explores user-requested AI rewriting and response generation.
-- MAYA focuses on deterministic, context-aware prepared replies.
-- Human-controlled final insertion and explicit privacy boundaries.
-- CI, documentation, and repository-level verification workflows.
+---
 
-### [CARINA AI Command Center](https://github.com/leandro4979-hub/carina-command-center)
-A control surface for agent operations, system visibility, and practical AI workflows.
-
-### [MAYA Orchestration Engine](https://github.com/leandro4979-hub/maya-orchestration-engine)
-An orchestration layer for routing work, coordinating tools, and building repeatable agent behavior.
-
-### [CTRL-AI](https://github.com/leandro4979-hub/CTRL-AI)
-Experiments around controllable AI behavior, automation, and operator-directed execution.
-
-### [Codex Click Guide](https://github.com/leandro4979-hub/codex-click-guide)
-A macOS accessibility aid designed to make required clicks and approval steps easier to follow.
-
-### [World Room](https://github.com/leandro4979-hub/-world-room)
-An experimental workspace for connected AI and automation concepts.
-
-## 🧠 What I’m Building Now
+## 🧠 Current Architecture
 
 ```text
 CARINA / MAYA
@@ -54,19 +45,45 @@ Tool / Device Execution
 Verification + Audit Trail
 ```
 
-Current priorities:
+**Active priorities:**
 
 - **CARINA OS** — agent architecture and execution controls
 - **MAYA** — orchestration and interaction workflows
-- **iOS + macOS automation** — Shortcuts, native Swift tooling, and device bridges
-- **Agent reliability** — approvals, validation, logging, and reproducible tests
-- **Local-first AI** — practical workflows that preserve privacy where possible
+- **iOS + macOS automation** — Shortcuts, native Swift tooling, device bridges
+- **Agent reliability** — approvals, validation, logging, reproducible tests
+- **Local-first AI** — practical workflows that preserve privacy
 
-## 🛠️ Technical Stack
+---
 
-`Python` · `Swift` · `SwiftUI` · `UIKit` · `GitHub Actions` · `Docker` · `REST APIs` · `WebSockets` · `Apple Shortcuts` · `macOS Automation` · `OpenCV` · `AI Agents`
+## 🛠️ Tech Stack
 
-## 📊 GitHub Activity
+| Domain | Technologies |
+|--------|-------------|
+| **Languages** | Swift · Python · TypeScript · JavaScript · Bash |
+| **Apple Platforms** | SwiftUI · UIKit · Apple Shortcuts · App Intents · macOS Automation |
+| **AI / Agents** | OpenAI APIs · WebSockets · On-device Foundation Models · OpenCV |
+| **Infrastructure** | Docker · GitHub Actions · REST APIs |
+
+---
+
+## ⚙️ Engineering Approach
+
+```text
+Observe → Define the smallest complete change → Build → Verify → Document → Repeat
+```
+
+- Real integrations over simulated behavior
+- Clear permission and privacy boundaries
+- Explicit error handling and auditability
+- Human approval for consequential actions
+- Small, testable vertical slices
+- Documentation backed by working evidence
+
+---
+
+<details>
+<summary>📊 GitHub Activity</summary>
+<br>
 
 <div align="center">
 
@@ -78,28 +95,17 @@ Current priorities:
 
 </div>
 
-> These cards are generated by third-party README services and may occasionally be unavailable even when the GitHub profile itself is working normally.
+> Stats cards use third-party services and may occasionally be unavailable even when GitHub is working normally.
 
-## ⚙️ Engineering Approach
+</details>
 
-```text
-Observe → Define the smallest complete change → Build → Verify → Document → Repeat
-```
-
-I optimize for:
-
-- Real integrations over simulated behavior
-- Clear permission and privacy boundaries
-- Explicit error handling and auditability
-- Human approval for consequential actions
-- Small, testable vertical slices
-- Documentation backed by working evidence
+---
 
 ## 🤝 Collaboration
 
 Open an issue in the relevant repository with the **problem, expected outcome, and environment**.
 
-I’m especially interested in **AI agents, privacy-first automation, accessibility, iOS/macOS tooling, orchestration, and dependable human-in-the-loop systems**.
+I'm especially interested in **AI agents, privacy-first automation, accessibility, iOS/macOS tooling, orchestration, and dependable human-in-the-loop systems**.
 
 ---
 
