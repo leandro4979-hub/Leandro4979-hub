@@ -24,13 +24,19 @@ My work explores agents that can understand context, coordinate tools, operate a
 
 > **2027 mode:** local-first intelligence, explicit authority, observable execution.
 
+<div align="center">
+<img src="./assets/agent-orbit.svg" alt="Animated CARINA orchestration system" width="100%" />
+</div>
+
+## Codex protocol
+
 ```text
-YOU
- │
- ▼
-CARINA / MAYA ──► perceive ──► plan ──► authorize ──► act ──► verify
-                                      ▲                         │
-                                      └──── human control ──────┘
+01  OBSERVE     Read the real state before touching it
+02  FRAME       Define the smallest complete outcome
+03  AUTHORIZE   Keep consequential decisions with the human
+04  EXECUTE     Use native tools with explicit boundaries
+05  VERIFY      Test the result and capture evidence
+06  EVOLVE      Ship the learning back into the system
 ```
 
 ## Flagship systems
@@ -104,6 +110,15 @@ METHOD          Build → Verify → Document → Improve
 - Connecting **MAYA** orchestration to native Apple workflows
 - Building reliable handoffs between humans, agents, apps, and devices
 - Turning experimental automation into testable product systems
+
+## Explore the system
+
+| Enter here | If you want to see |
+|---|---|
+| [**CARINA Command Center**](https://github.com/leandro4979-hub/carina-command-center) | Multi-agent control surfaces and execution state |
+| [**CARINA × MAYA TYPE**](https://github.com/leandro4979-hub/carina-maya-type) | Private, native intelligence on iOS |
+| [**MAYA Orchestration Engine**](https://github.com/leandro4979-hub/maya-orchestration-engine) | Risk-aware tool and device coordination |
+| [**Codex Click Guide**](https://github.com/leandro4979-hub/codex-click-guide) | Accessible human–agent handoffs |
 
 <details>
 <summary><strong>Live GitHub signal</strong></summary>

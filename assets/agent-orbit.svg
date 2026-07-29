@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">CARINA agent orchestration system</title>
+  <desc id="desc">An animated system map connecting human authority to perception, planning, tools, and verification.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b14"/>
+      <stop offset=".5" stop-color="#0d1224"/>
+      <stop offset="1" stop-color="#090712"/>
+    </linearGradient>
+    <radialGradient id="core">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".18" stop-color="#66e8ff"/>
+      <stop offset=".55" stop-color="#6d5dfc"/>
+      <stop offset="1" stop-color="#6d5dfc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d4ff" stop-opacity=".15"/>
+      <stop offset=".5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#00d4ff" stop-opacity=".15"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <style>
+      .orbit{fill:none;stroke:#7c89b8;stroke-opacity:.22;stroke-width:1}
+      .dash{fill:none;stroke:url(#flow);stroke-width:2;stroke-linecap:round;stroke-dasharray:8 18;animation:flow 7s linear infinite}
+      .node{fill:#0d1427;stroke:#56648f;stroke-width:1.2}
+      .label{fill:#dce7ff;font:600 14px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:1.7px}
+      .sub{fill:#7f8bad;font:11px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:1px}
+      .pulse{transform-origin:600px 180px;animation:pulse 4s ease-in-out infinite}
+      .satellite{transform-origin:600px 180px;animation:orbit 18s linear infinite}
+      .satellite2{transform-origin:600px 180px;animation:orbit 24s linear infinite reverse}
+      .blink{animation:blink 3s ease-in-out infinite}
+      @keyframes flow{to{stroke-dashoffset:-104}}
+      @keyframes pulse{0%,100%{transform:scale(.92);opacity:.7}50%{transform:scale(1.08);opacity:1}}
+      @keyframes orbit{to{transform:rotate(360deg)}}
+      @keyframes blink{0%,100%{opacity:.3}50%{opacity:1}}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+  <ellipse cx="600" cy="180" rx="360" ry="112" fill="#263b87" opacity=".12" filter="url(#soft)"/>
+  <ellipse class="orbit" cx="600" cy="180" rx="420" ry="128"/>
+  <ellipse class="orbit" cx="600" cy="180" rx="300" ry="92"/>
+  <path class="dash" d="M165 180H435M765 180h270M600 62v62M600 236v62"/>
+
+  <g class="satellite">
+    <circle cx="600" cy="52" r="5" fill="#00d4ff" filter="url(#glow)"/>
+    <circle cx="600" cy="308" r="3" fill="#8b5cf6"/>
+  </g>
+  <g class="satellite2">
+    <circle cx="900" cy="180" r="4" fill="#fff" filter="url(#glow)"/>
+    <circle cx="300" cy="180" r="3" fill="#00d4ff"/>
+  </g>
+
+  <g class="pulse">
+    <circle cx="600" cy="180" r="72" fill="url(#core)" opacity=".9"/>
+    <circle cx="600" cy="180" r="46" fill="#0b1020" stroke="#7feaff" stroke-width="1.5"/>
+  </g>
+  <text x="600" y="175" text-anchor="middle" class="label">CARINA</text>
+  <text x="600" y="196" text-anchor="middle" class="sub">CONTROL CORE</text>
+
+  <g transform="translate(78 132)">
+    <rect class="node" width="190" height="96" rx="16"/>
+    <circle class="blink" cx="25" cy="24" r="4" fill="#22c55e"/>
+    <text x="95" y="43" text-anchor="middle" class="label">HUMAN</text>
+    <text x="95" y="65" text-anchor="middle" class="sub">AUTHORITY</text>
+  </g>
+  <g transform="translate(932 132)">
+    <rect class="node" width="190" height="96" rx="16"/>
+    <circle class="blink" cx="165" cy="24" r="4" fill="#00d4ff"/>
+    <text x="95" y="43" text-anchor="middle" class="label">VERIFICATION</text>
+    <text x="95" y="65" text-anchor="middle" class="sub">EVIDENCE + AUDIT</text>
+  </g>
+  <g transform="translate(505 18)">
+    <rect class="node" width="190" height="70" rx="16"/>
+    <text x="95" y="32" text-anchor="middle" class="label">PERCEPTION</text>
+    <text x="95" y="51" text-anchor="middle" class="sub">CONTEXT + INTENT</text>
+  </g>
+  <g transform="translate(505 272)">
+    <rect class="node" width="190" height="70" rx="16"/>
+    <text x="95" y="32" text-anchor="middle" class="label">EXECUTION</text>
+    <text x="95" y="51" text-anchor="middle" class="sub">TOOLS + DEVICES</text>
+  </g>
+</svg>
