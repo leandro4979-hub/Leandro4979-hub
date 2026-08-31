@@ -1,143 +1,182 @@
 <div align="center">
 
-<img src="./assets/command-center-2027.gif" alt="Leandro Fajardo — animated AI systems command center" width="100%" />
+<img src="./assets/trusted-transformation-dashboard.svg" alt="Trusted Transformation Infrastructure executive portfolio dashboard" width="100%" />
 
-# LEANDRO FAJARDO
+# TRUSTED TRANSFORMATION INFRASTRUCTURE
 
-### Building private AI systems that can think, act, and prove what they did.
+### Building bounded, attributable, verifiable transformation systems.
 
-[![Follow](https://img.shields.io/github/followers/leandro4979-hub?label=Follow&style=for-the-badge&logo=github&color=7c3aed)](https://github.com/leandro4979-hub?tab=followers)
-[![CARINA](https://img.shields.io/badge/FLAGSHIP-CARINA-00d4ff?style=for-the-badge)](https://github.com/leandro4979-hub?tab=repositories&q=carina)
-[![Open to collaboration](https://img.shields.io/badge/STATUS-BUILDING-22c55e?style=for-the-badge)](#connect)
+[![Profile](https://img.shields.io/badge/LEANDRO_FAJARDO-ORIGINATOR-f6c66b?style=for-the-badge)](https://github.com/leandro4979-hub)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-3_VENTURES-5eead4?style=for-the-badge)](#the-three-ventures)
+[![Status](https://img.shields.io/badge/STATUS-PILOT_PATHS_DEFINED-60a5fa?style=for-the-badge)](#proof-layer)
+[![Collaborate](https://img.shields.io/badge/COLLABORATE-OPEN-22c55e?style=for-the-badge)](#collaboration)
 
-`AI AGENTS` · `OPENCLAW` · `APPLE PLATFORMS` · `AUTOMATION` · `PRIVACY` · `HUMAN CONTROL`
+`TRUST` · `TRANSPARENCY` · `TRANSFORMATION` · `HUMAN AUTHORITY` · `VERIFICATION`
 
 </div>
 
 ---
 
-## The mission
-
-I build the layer between **AI intent** and **real-world execution**.
-
-My work explores agents that can understand context, coordinate tools, operate across Apple devices, and remain accountable to the person in control. The goal is not another chat demo. It is dependable software with permissions, verification, recovery, and an audit trail.
-
-> **2027 mode:** local-first intelligence, explicit authority, observable execution.
-
-<div align="center">
-<img src="./assets/agent-orbit.svg" alt="Animated CARINA orchestration system" width="100%" />
-</div>
-
-## Codex protocol
-
-```text
-01  OBSERVE     Read the real state before touching it
-02  FRAME       Define the smallest complete outcome
-03  AUTHORIZE   Keep consequential decisions with the human
-04  EXECUTE     Use native tools with explicit boundaries
-05  VERIFY      Test the result and capture evidence
-06  EVOLVE      Ship the learning back into the system
-```
-
-## Flagship systems
+## Executive summary
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [CARINA × MAYA TYPE](https://github.com/leandro4979-hub/carina-maya-type)
+### ↗ Opportunity
 
-Privacy-first iOS keyboard intelligence. CARINA uses on-device models; MAYA provides deterministic contextual replies.
-
-`Swift` `iOS` `Foundation Models`
+Three distinct venture concepts share one deeper infrastructure model: define the asset, actor, rules, execution boundary, and verification path before transformation occurs.
 
 </td>
 <td width="50%" valign="top">
 
-### [CARINA Command Center](https://github.com/leandro4979-hub/carina-command-center)
+### △ Risk
 
-A human-centered interface for coordinating multiple agents, permissions, tasks, and execution state.
-
-`TypeScript` `Agent UX` `Orchestration`
+Technical validation, adoption, partner fit, and real-world evidence remain open. The portfolio separates **concept**, **pilot**, and **verified** states so claims do not outrun proof.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [MAYA Orchestration Engine](https://github.com/leandro4979-hub/maya-orchestration-engine)
+### ✓ Readiness
 
-Risk-aware macOS voice orchestration with native feedback and an authenticated private relay.
-
-`Python` `macOS` `Voice`
+The portfolio architecture, venture boundaries, operating models, and initial pilot paths are defined.
 
 </td>
 <td width="50%" valign="top">
 
-### [Codex Click Guide](https://github.com/leandro4979-hub/codex-click-guide)
+### ↗ Next milestone
 
-Native visual and spoken guidance for accessible, precise assistant-to-human handoffs.
-
-`Swift` `Accessibility` `macOS`
+Build and validate the first bounded real-world pilot, then produce a durable verification receipt for the outcome.
 
 </td>
 </tr>
 </table>
 
-## What I optimize for
-
-| Principle | What it means in practice |
-|---|---|
-| **Private by default** | Prefer on-device processing and narrowly scoped data access |
-| **Human authority** | Consequential actions require clear permission |
-| **Verified execution** | A system should confirm the result, not merely report an attempt |
-| **Native experience** | Use platform capabilities instead of wrapping everything in a web view |
-| **Recoverable systems** | Errors are visible, bounded, and designed for safe recovery |
-
-## Operating stack
+## Core model
 
 ```text
-LANGUAGES       Swift · Python · TypeScript · JavaScript
-INTERFACES      SwiftUI · UIKit · App Intents · Apple Shortcuts
-INTELLIGENCE    OpenAI APIs · On-device Foundation Models · OpenCV
-SYSTEMS         WebSockets · REST · Docker · GitHub Actions
-METHOD          Build → Verify → Document → Improve
+ASSET
+  ↓
+AUTHORIZED ACTOR
+  ↓
+RULES / PERMISSIONS
+  ↓
+CONTROLLED TRANSFORMATION
+  ↓
+VERIFIABLE OUTCOME
 ```
 
-## Now
+> **Principle:** specify who or what may transform an asset, under which rules, where the transformation occurs, and how the outcome can be verified.
 
-- Architecting **CARINA OS** as a controlled agent execution layer
-- Connecting **MAYA** orchestration to native Apple workflows
-- Building reliable handoffs between humans, agents, apps, and devices
-- Turning experimental automation into testable product systems
-
-<div align="center">
-<img src="./assets/live-signal.svg" alt="Live build signal across private AI, Apple platforms, agent control, and verified automation" width="100%" />
-</div>
-
-## Why follow
+## The three ventures
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### See the build
+### Hyper-Local Micro-Manufacturing
 
-Architecture, prototypes, and the decisions behind CARINA and MAYA as they move from experiments into systems.
+Modular, small-scale production hubs for customized, low-volume goods near users.
+
+**Model**  
+Digital design → qualified local cell → production rules → fabrication → QA → local delivery → provenance receipt
+
+**Boundary**  
+Local production capacity without requiring broad supply-chain restructuring.
+
+**Pilot**  
+Qualify two local printers for one replacement part and compare lead time, quality, landed cost, and repeatability.
 
 </td>
 <td width="33%" valign="top">
 
-### Steal the patterns
+### Ethical Algorithmic Artistry
 
-Practical ideas for permission boundaries, verification, native automation, and human–agent handoffs.
+Human + AI cultural creation under explicit attribution, permission, contributor identity, and provenance.
+
+**Model**  
+Cultural source → contributor identity → permission → AI-assisted creation → signed manifest → distribution → credit record
+
+**Boundary**  
+Cultural expression and authorship rather than operational automation.
+
+**Pilot**  
+Create one signed provenance manifest for an image, audio, or text artifact.
 
 </td>
 <td width="33%" valign="top">
 
-### Shape the direction
+### Adaptive Infrastructure Retrofits
 
-Issues and collaborations can influence what gets tested, connected, and shipped next.
+Modular upgrades for existing buildings, including kinetic facades, focused on adaptability and new functionality.
+
+**Model**  
+Existing structure → approved actor → design constraints → modular installation → inspection → operating state → verification receipt
+
+**Boundary**  
+Architectural adaptability without depending on energy technology or sustainability metrics as the core thesis.
+
+**Pilot**  
+Install one reversible retrofit in a bounded zone and compare before/after functionality.
+
+</td>
+</tr>
+</table>
+
+## Proof layer
+
+| State | Meaning | Current portfolio status |
+|---|---|---|
+| **CONCEPTUAL** | Thesis, boundary, and operating model defined | **3 / 3 concepts** |
+| **PILOT** | Test path and measurable evidence plan defined | **3 / 3 pilot paths** |
+| **VERIFIED** | Real-world evidence exists and can be checked | **Pending first pilot** |
+
+No performance percentage is treated as real until evidence exists.
+
+## Case study example — Hyper-Local Micro-Manufacturing
+
+<table>
+<tr>
+<td width="20%" valign="top"><strong>1. Problem</strong><br><br>Customized, low-volume parts can suffer from slow centralized fulfillment and long logistics.</td>
+<td width="20%" valign="top"><strong>2. Operating model</strong><br><br>Design → local cell → policy check → fabrication → QA → local delivery.</td>
+<td width="20%" valign="top"><strong>3. Boundary</strong><br><br>Qualified equipment, explicit manufacturing rules, and no wholesale supply-chain redesign.</td>
+<td width="20%" valign="top"><strong>4. Pilot</strong><br><br>Two local printers, one part, one bounded comparison.</td>
+<td width="20%" valign="top"><strong>5. Verification</strong><br><br>Machine, material, tolerances, operator, artifact identity, and QA receipt.</td>
+</tr>
+</table>
+
+## Insights
+
+- **Trust is designed into the boundary.** Authorization and scope come before execution.
+- **Boundaries make concepts stronger.** Each venture intentionally excludes adjacent themes that would dilute the thesis.
+- **Verification separates claim from proof.** A system should show what changed, under which authority, and with what result.
+- **Transformation is the common primitive.** Manufacturing, creative work, and infrastructure can share the same control architecture.
+
+## Collaboration
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### Pilot Partner
+
+Test a bounded real-world use case and help define measurable success criteria.
+
+</td>
+<td width="33%" valign="top">
+
+### Technical Contributor
+
+Help build, refine, secure, or instrument the implementation.
+
+</td>
+<td width="33%" valign="top">
+
+### Research / Validation
+
+Challenge assumptions, evaluate evidence, and strengthen the verification model.
 
 </td>
 </tr>
@@ -145,61 +184,40 @@ Issues and collaborations can influence what gets tested, connected, and shipped
 
 <div align="center">
 
-[![Follow the build](https://img.shields.io/badge/FOLLOW_THE_BUILD-7c3aed?style=for-the-badge&logo=github&logoColor=white)](https://github.com/leandro4979-hub)
-[![Propose an idea](https://img.shields.io/badge/SIGNAL_AN_IDEA-00a6c7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new/choose)
+[![Start a collaboration](https://img.shields.io/badge/START_A_COLLABORATION-f6c66b?style=for-the-badge&logo=github&logoColor=black)](https://github.com/leandro4979-hub/Leandro4979-hub/issues)
+[![Explore repositories](https://img.shields.io/badge/EXPLORE_THE_LAB-0f172a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/leandro4979-hub?tab=repositories)
 
 </div>
 
-## Explore the system
+## About the originator
 
-| Enter here | If you want to see |
-|---|---|
-| [**CARINA Command Center**](https://github.com/leandro4979-hub/carina-command-center) | Multi-agent control surfaces and execution state |
-| [**CARINA × MAYA TYPE**](https://github.com/leandro4979-hub/carina-maya-type) | Private, native intelligence on iOS |
-| [**MAYA Orchestration Engine**](https://github.com/leandro4979-hub/maya-orchestration-engine) | Risk-aware tool and device coordination |
-| [**Codex Click Guide**](https://github.com/leandro4979-hub/codex-click-guide) | Accessible human–agent handoffs |
+**Leandro Fajardo** originated the three venture concepts in this portfolio and the shared **Trusted Transformation Infrastructure** framing used to connect them.
 
-## OpenClaw × CARINA
+The working philosophy is simple:
 
-[![OpenClaw](https://img.shields.io/badge/OPENCLAW-COMPATIBILITY_LAB-f97316?style=for-the-badge)](https://github.com/openclaw/openclaw)
-[![Discuss integration](https://img.shields.io/badge/PROPOSE_AN_INTEGRATION-111827?style=for-the-badge&logo=github)](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=idea.yml&title=%5BOpenClaw%5D%3A+)
-
-[OpenClaw](https://github.com/openclaw/openclaw) is an open-source personal AI assistant designed to run across operating systems and platforms. The compatibility direction I am exploring is a clean boundary between its agent runtime and the CARINA/MAYA control model:
-
-```text
-OPENCLAW RUNTIME
-      ↓
-CARINA AUTHORIZATION  →  explicit scope · human approval · policy
-      ↓
-MAYA EXECUTION        →  native Apple workflows · tools · devices
-      ↓
-VERIFICATION          →  evidence · recovery · audit trail
-```
-
-This is a **compatibility direction, not a finished integration**. If you build with OpenClaw and care about safer execution, native Apple control, or verifiable agent actions, signal the use case through the integration link above.
+> **Build with boundaries. Verify outcomes.**
 
 <details>
-<summary><strong>Live GitHub signal</strong></summary>
-<br />
+<summary><strong>Engineering lab</strong></summary>
+<br>
 
-<div align="center">
+The portfolio sits alongside active experimentation in AI agents, Apple-platform automation, authorization boundaries, and verifiable execution.
 
-![Leandro's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=leandro4979-hub&bg_color=0d1117&color=8b5cf6&line=00d4ff&point=ffffff&area=true&hide_border=true)
+- [**caRINA**](https://github.com/leandro4979-hub/caRINA) — controlled agent execution and authorization work
+- [**Applications**](https://github.com/leandro4979-hub/Applications) — application experiments and prototypes
+- [**neuralforge**](https://github.com/leandro4979-hub/neuralforge) — AI / engineering experimentation
+- [**Openai**](https://github.com/leandro4979-hub/Openai) — OpenAI-related development work
 
-</div>
 </details>
 
 ---
 
-<div id="connect" align="center">
+<div align="center">
 
-## Build the next interface with me.
+### TRUSTED TRANSFORMATION INFRASTRUCTURE
 
-If you care about private AI, native Apple tooling, accessible automation, or dependable agents, explore a project and open an issue with the problem you want to solve.
+**Original concepts · Leandro Fajardo**
 
-[![Explore projects](https://img.shields.io/badge/EXPLORE_THE_LAB-111827?style=for-the-badge&logo=github)](https://github.com/leandro4979-hub?tab=repositories)
-[![Start a conversation](https://img.shields.io/badge/START_A_CONVERSATION-7c3aed?style=for-the-badge&logo=github)](https://github.com/leandro4979-hub/Leandro4979-hub/issues)
-
-**Leandro Fajardo** · designing the control layer for intelligent software
+[GitHub Profile](https://github.com/leandro4979-hub) · [Collaboration](https://github.com/leandro4979-hub/Leandro4979-hub/issues)
 
 </div>
