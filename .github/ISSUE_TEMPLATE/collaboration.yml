@@ -1,44 +1,150 @@
 name: Build together
-description: Propose a focused collaboration around AI agents, Apple platforms, or automation.
+description: Propose a focused collaboration, pilot, implementation, or evaluation around trusted AI, Apple platforms, automation, or real-world transformation.
 title: "[Collaboration]: "
 labels:
   - collaboration
+
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reaching out. A concrete outcome makes it much easier to find the right path.
+        Thanks for reaching out.
+
+        The strongest collaborations start with a bounded problem, a concrete outcome, clear authority, and a way to verify the result. You do not need a finished plan—just enough detail to identify a useful first proof.
+
+  - type: dropdown
+    id: collaboration_type
+    attributes:
+      label: Collaboration type
+      description: What kind of collaboration are you proposing?
+      options:
+        - Pilot partner — bring a real use case and success criteria
+        - Builder — implementation, integration, security, or tooling
+        - Evaluator — testing, research, measurement, or review
+        - Design partner — product, UX, accessibility, or workflow design
+        - Research partner — technical or applied research
+        - Other
+    validations:
+      required: true
+
   - type: dropdown
     id: area
     attributes:
       label: Area
+      description: Choose the closest fit.
       options:
+        - Trusted AI / agent authorization
+        - Apple platforms / native workflows
+        - Developer automation / infrastructure
         - Privacy-first AI
-        - Apple platforms
-        - Agent orchestration
-        - OpenClaw integration
         - Accessibility
-        - Developer automation
-        - Other
+        - MAKE NEARBY — hyper-local micro-manufacturing
+        - CREATE WITH CREDIT — ethical algorithmic artistry
+        - UPGRADE WHAT EXISTS — adaptive infrastructure retrofits
+        - Cross-project / other
     validations:
       required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem worth testing
+      description: What real problem, opportunity, or uncertainty should this collaboration address?
+      placeholder: |
+        Today...
+        The limitation or risk is...
+        This matters because...
+    validations:
+      required: true
+
   - type: textarea
     id: outcome
     attributes:
-      label: Outcome
-      description: What should exist or work when this collaboration succeeds?
-      placeholder: A user can...
+      label: Desired outcome
+      description: What should exist, work, improve, or become measurable if this succeeds?
+      placeholder: |
+        A user can...
+        A system can...
+        We can demonstrate...
     validations:
       required: true
+
+  - type: textarea
+    id: first_proof
+    attributes:
+      label: Smallest useful proof
+      description: Describe the smallest bounded pilot, prototype, experiment, or evaluation that would prove this is worth continuing.
+      placeholder: |
+        Scope:
+        Success criteria:
+        Evidence we should collect:
+    validations:
+      required: true
+
   - type: textarea
     id: contribution
     attributes:
       label: What you bring
-      description: Share the skills, context, code, design, testing, or distribution you can contribute.
+      description: Share the code, domain access, hardware, data, design, testing, research, distribution, funding, or other contribution you can provide.
+      placeholder: |
+        I can contribute...
+        I have access to...
+        I would own...
     validations:
       required: true
+
+  - type: textarea
+    id: authority
+    attributes:
+      label: Authority and boundaries
+      description: Note who is authorized to approve or operate the work, what must stay human-controlled, and any hard limits.
+      placeholder: |
+        Authorized operator/decision-maker:
+        Actions that require explicit approval:
+        Data, systems, devices, or environments that are off-limits:
+    validations:
+      required: true
+
   - type: textarea
     id: constraints
     attributes:
-      label: Constraints and timing
-      description: Note any platform, privacy, licensing, or schedule constraints.
+      label: Constraints
+      description: Include relevant platform, privacy, security, licensing, safety, budget, geography, hardware, or timing constraints.
+      placeholder: |
+        Platform / environment:
+        Privacy or security requirements:
+        Licensing / IP considerations:
+        Timing or dependency constraints:
+
+  - type: input
+    id: links
+    attributes:
+      label: Relevant links
+      description: Optional. Share a repository, demo, paper, design, project page, or other useful reference.
+      placeholder: https://...
+
+  - type: textarea
+    id: next_step
+    attributes:
+      label: Best next step
+      description: If this looks like a fit, what is the most useful first action?
+      placeholder: Review a repo, define the pilot, run an architecture session, test an integration, evaluate a prototype...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: readiness
+    attributes:
+      label: Collaboration readiness
+      options:
+        - label: I am proposing a real collaboration or test, not a generic promotion or unsolicited sales pitch.
+          required: true
+        - label: I can provide enough context to define ownership, boundaries, and success criteria before execution begins.
+          required: true
+        - label: I understand that sensitive credentials, private keys, personal data, and secrets should not be posted in this public issue.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        **What happens next:** the proposal will be evaluated for fit, scope, authority, and whether there is a credible first proof. Strong proposals should make the next action obvious.
