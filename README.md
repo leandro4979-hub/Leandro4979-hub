@@ -33,6 +33,7 @@ My engineering work explores **AI agents, native Apple workflows, and developer 
 | Explore | What it investigates |
 | :--- | :--- |
 | [**caRINA →**](https://github.com/leandro4979-hub/caRINA) | Controlled agent execution and authorization |
+| [**carina-gateway →**](https://github.com/leandro4979-hub/carina-gateway) | Signed GitHub intake mapped into read-only CARINA evidence records |
 | [**Applications →**](https://github.com/leandro4979-hub/Applications) | Application experiments and prototypes |
 | [**neuralforge →**](https://github.com/leandro4979-hub/neuralforge) | AI and engineering experimentation |
 | [**Openai →**](https://github.com/leandro4979-hub/Openai) | OpenAI-related development work |
@@ -111,6 +112,8 @@ VERIFIED OUTCOME
   ↓
 PROOF RECORD
 ```
+
+Public GitHub intake can now be normalized through [**carina-gateway →**](https://github.com/leandro4979-hub/carina-gateway) into signed, read-only `INTENT`, `EVIDENCE`, and `DECISION` records. GitHub never grants execution authority; CARINA remains the only system allowed to authorize a consequential transition.
 
 I’m especially interested in:
 
