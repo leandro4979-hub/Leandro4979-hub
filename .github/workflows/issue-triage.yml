@@ -1,0 +1,102 @@
+name: Intake triage
+
+on:
+  issues:
+    types: [opened, reopened]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  classify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Classify intake without authorizing execution
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const title = issue.title || "";
+
+            const configs = {
+              idea: {
+                match: title.startsWith("[Idea]:"),
+                labels: [
+                  { name: "idea", color: "6f42c1", description: "Exploratory problem, hypothesis, or direction" },
+                  { name: "needs-evidence", color: "d4c5f9", description: "Needs more evidence before a pilot decision" }
+                ],
+                message: [
+                  "Thanks for signaling this idea.",
+                  "",
+                  "This issue is in the **evidence** stage. The next goal is to sharpen the problem, evidence, smallest useful test, and human-control boundaries.",
+                  "",
+                  "A GitHub issue or label is coordination metadata only—it does **not** authorize execution on devices, accounts, infrastructure, or external systems."
+                ].join("\n")
+              },
+              collaboration: {
+                match: title.startsWith("[Collaboration]:"),
+                labels: [
+                  { name: "collaboration", color: "0e8a16", description: "Proposed collaboration or bounded pilot" },
+                  { name: "needs-decision", color: "fbca04", description: "Ready for a human go / no-go decision" }
+                ],
+                message: [
+                  "Thanks for proposing a collaboration.",
+                  "",
+                  "This issue is in the **decision** stage. Before any execution, scope, authority, boundaries, ownership, and success criteria should be explicit.",
+                  "",
+                  "No automation triggered by this issue may treat submission, labeling, or classification as authorization to execute."
+                ].join("\n")
+              },
+              proof: {
+                match: title.startsWith("[Proof]:"),
+                labels: [
+                  { name: "proof", color: "1d76db", description: "Evidence record from a completed bounded test or pilot" },
+                  { name: "needs-verification", color: "5319e7", description: "Evidence awaits verification or review" }
+                ],
+                message: [
+                  "Proof record received.",
+                  "",
+                  "Review should confirm that the stated outcome is supported by direct evidence and that the work stayed inside the authorized scope.",
+                  "",
+                  "Verification is separate from execution: successful activity is not considered proven until the evidence supports the claim."
+                ].join("\n")
+              }
+            };
+
+            const config = Object.values(configs).find(item => item.match);
+            if (!config) return;
+
+            for (const label of config.labels) {
+              try {
+                await github.rest.issues.getLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name: label.name
+                });
+              } catch (error) {
+                if (error.status !== 404) throw error;
+                await github.rest.issues.createLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name: label.name,
+                  color: label.color,
+                  description: label.description
+                });
+              }
+            }
+
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              labels: config.labels.map(label => label.name)
+            });
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              body: config.message
+            });
