@@ -1,223 +1,110 @@
 <div align="center">
 
-<img src="./assets/trusted-transformation-dashboard.svg" alt="Trusted Transformation Infrastructure executive portfolio dashboard" width="100%" />
+# Leandro Fajardo
 
-# TRUSTED TRANSFORMATION INFRASTRUCTURE
+### Build with boundaries. Verify outcomes.
 
-### Building bounded, attributable, verifiable transformation systems.
+**What if every transformation came with proof?**
 
-[![Profile](https://img.shields.io/badge/LEANDRO_FAJARDO-ORIGINATOR-f6c66b?style=for-the-badge)](https://github.com/leandro4979-hub)
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-3_VENTURES-5eead4?style=for-the-badge)](#the-three-ventures)
-[![Status](https://img.shields.io/badge/STATUS-PILOT_PATHS_DEFINED-60a5fa?style=for-the-badge)](#proof-layer)
-[![Collaborate](https://img.shields.io/badge/COLLABORATE-OPEN-22c55e?style=for-the-badge)](#collaboration)
+I’m exploring systems that make it clear **who can act, what can change, and how we know it worked**—across local manufacturing, AI-assisted creativity, and adaptable buildings.
 
-`TRUST` · `TRANSPARENCY` · `TRANSFORMATION` · `HUMAN AUTHORITY` · `VERIFICATION`
+[Explore the concepts](#three-ideas-one-standard) · [Build a pilot with me](#help-turn-a-concept-into-evidence) · [Engineering lab](#engineering-lab)
+
+<img src="./assets/trusted-transformation-dashboard.svg" alt="Trusted Transformation Infrastructure: three venture concepts connected by authorization, controlled execution, and verifiable outcomes" width="100%" />
 
 </div>
 
 ---
 
-## Executive summary
+## Three ideas. One standard.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**Trusted Transformation Infrastructure** is the shared model behind this portfolio:
 
-### ↗ Opportunity
+> An asset. An authorized actor. Clear rules. A controlled change. A result you can check.
 
-Three distinct venture concepts share one deeper infrastructure model: define the asset, actor, rules, execution boundary, and verification path before transformation occurs.
+### 01 / Make it nearby
+**Hyper-Local Micro-Manufacturing**
 
-</td>
-<td width="50%" valign="top">
+Explore modular local production hubs for customized, low-volume goods.
 
-### △ Risk
+**First pilot:** qualify two local printers for one replacement part. Compare lead time, quality, landed cost, and repeatability. Record the material, machine, operator, and QA result.
 
-Technical validation, adoption, partner fit, and real-world evidence remain open. The portfolio separates **concept**, **pilot**, and **verified** states so claims do not outrun proof.
+**The question:** can a small local production cell deliver a useful part with a traceable quality record?
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+### 02 / Create with credit
+**Ethical Algorithmic Artistry**
 
-### ✓ Readiness
+Explore human + AI cultural creation with explicit permission, contributor identity, attribution, and provenance.
 
-The portfolio architecture, venture boundaries, operating models, and initial pilot paths are defined.
+**First pilot:** create one image, audio, or text artifact with a signed provenance manifest documenting its sources, permissions, and contributors.
 
-</td>
-<td width="50%" valign="top">
+**The question:** can an AI-assisted work carry a clear, inspectable record of permission and credit?
 
-### ↗ Next milestone
+### 03 / Upgrade what exists
+**Adaptive Infrastructure Retrofits**
 
-Build and validate the first bounded real-world pilot, then produce a durable verification receipt for the outcome.
+Explore modular upgrades that give existing buildings new functionality, including kinetic facades.
 
-</td>
-</tr>
-</table>
+**First pilot:** test one reversible retrofit in a bounded zone. Document constraints, installation, inspection, and before/after functionality.
 
-## Core model
+**The question:** can an existing space gain a useful capability through a bounded, reversible change?
 
-```text
-ASSET
-  ↓
-AUTHORIZED ACTOR
-  ↓
-RULES / PERMISSIONS
-  ↓
-CONTROLLED TRANSFORMATION
-  ↓
-VERIFIABLE OUTCOME
-```
+---
 
-> **Principle:** specify who or what may transform an asset, under which rules, where the transformation occurs, and how the outcome can be verified.
+## Where things stand
 
-## The three ventures
+| Defined | Next | Evidence |
+| :--- | :--- | :--- |
+| Three venture concepts and operating models | Select and run the first bounded pilot | Real-world validation pending |
+| Three initial pilot paths | Agree on measurable success criteria | No performance claims before results |
 
-<table>
-<tr>
-<td width="33%" valign="top">
+These are **venture concepts with proposed pilot paths**. The next milestone is a completed pilot with an outcome others can inspect.
 
-### Hyper-Local Micro-Manufacturing
+## Why follow this work?
 
-Modular, small-scale production hubs for customized, low-volume goods near users.
+Follow for the decisions behind turning these concepts into testable systems: what gets built, which assumptions get challenged, and what the evidence supports.
 
-**Model**  
-Digital design → qualified local cell → production rules → fabrication → QA → local delivery → provenance receipt
+The ideas worth sharing should be useful beyond one project:
 
-**Boundary**  
-Local production capacity without requiring broad supply-chain restructuring.
+- **Permission before action:** define who can change what.
+- **Boundaries before scale:** start with one complete, measurable use case.
+- **Evidence after execution:** record the outcome, including failures and limitations.
 
-**Pilot**  
-Qualify two local printers for one replacement part and compare lead time, quality, landed cost, and repeatability.
+## Help turn a concept into evidence
 
-</td>
-<td width="33%" valign="top">
+| If you are… | A useful starting point |
+| :--- | :--- |
+| A **pilot partner** | Bring one real use case and help define success. |
+| A **technical contributor** | Help build, secure, or instrument a pilot. |
+| A **researcher or evaluator** | Challenge an assumption or propose a better measurement. |
 
-### Ethical Algorithmic Artistry
-
-Human + AI cultural creation under explicit attribution, permission, contributor identity, and provenance.
-
-**Model**  
-Cultural source → contributor identity → permission → AI-assisted creation → signed manifest → distribution → credit record
-
-**Boundary**  
-Cultural expression and authorship rather than operational automation.
-
-**Pilot**  
-Create one signed provenance manifest for an image, audio, or text artifact.
-
-</td>
-<td width="33%" valign="top">
-
-### Adaptive Infrastructure Retrofits
-
-Modular upgrades for existing buildings, including kinetic facades, focused on adaptability and new functionality.
-
-**Model**  
-Existing structure → approved actor → design constraints → modular installation → inspection → operating state → verification receipt
-
-**Boundary**  
-Architectural adaptability without depending on energy technology or sustainability metrics as the core thesis.
-
-**Pilot**  
-Install one reversible retrofit in a bounded zone and compare before/after functionality.
-
-</td>
-</tr>
-</table>
-
-## Proof layer
-
-| State | Meaning | Current portfolio status |
-|---|---|---|
-| **CONCEPTUAL** | Thesis, boundary, and operating model defined | **3 / 3 concepts** |
-| **PILOT** | Test path and measurable evidence plan defined | **3 / 3 pilot paths** |
-| **VERIFIED** | Real-world evidence exists and can be checked | **Pending first pilot** |
-
-No performance percentage is treated as real until evidence exists.
-
-## Case study example — Hyper-Local Micro-Manufacturing
-
-<table>
-<tr>
-<td width="20%" valign="top"><strong>1. Problem</strong><br><br>Customized, low-volume parts can suffer from slow centralized fulfillment and long logistics.</td>
-<td width="20%" valign="top"><strong>2. Operating model</strong><br><br>Design → local cell → policy check → fabrication → QA → local delivery.</td>
-<td width="20%" valign="top"><strong>3. Boundary</strong><br><br>Qualified equipment, explicit manufacturing rules, and no wholesale supply-chain redesign.</td>
-<td width="20%" valign="top"><strong>4. Pilot</strong><br><br>Two local printers, one part, one bounded comparison.</td>
-<td width="20%" valign="top"><strong>5. Verification</strong><br><br>Machine, material, tolerances, operator, artifact identity, and QA receipt.</td>
-</tr>
-</table>
-
-## Insights
-
-- **Trust is designed into the boundary.** Authorization and scope come before execution.
-- **Boundaries make concepts stronger.** Each venture intentionally excludes adjacent themes that would dilute the thesis.
-- **Verification separates claim from proof.** A system should show what changed, under which authority, and with what result.
-- **Transformation is the common primitive.** Manufacturing, creative work, and infrastructure can share the same control architecture.
-
-## Collaboration
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### Pilot Partner
-
-Test a bounded real-world use case and help define measurable success criteria.
-
-</td>
-<td width="33%" valign="top">
-
-### Technical Contributor
-
-Help build, refine, secure, or instrument the implementation.
-
-</td>
-<td width="33%" valign="top">
-
-### Research / Validation
-
-Challenge assumptions, evaluate evidence, and strengthen the verification model.
-
-</td>
-</tr>
-</table>
+**Have a use case?** Open an issue with the venture you’re interested in, the problem you see, and what a successful pilot would demonstrate.
 
 <div align="center">
 
-[![Start a collaboration](https://img.shields.io/badge/START_A_COLLABORATION-f6c66b?style=for-the-badge&logo=github&logoColor=black)](https://github.com/leandro4979-hub/Leandro4979-hub/issues)
-[![Explore repositories](https://img.shields.io/badge/EXPLORE_THE_LAB-0f172a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/leandro4979-hub?tab=repositories)
+**[Start a collaboration →](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=collaboration.yml)**
+
+[Suggest an idea](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=idea.yml) · [Explore my repositories](https://github.com/leandro4979-hub?tab=repositories)
 
 </div>
 
-## About the originator
+## Engineering lab
 
-**Leandro Fajardo** originated the three venture concepts in this portfolio and the shared **Trusted Transformation Infrastructure** framing used to connect them.
+Alongside the venture concepts, I explore AI agents, Apple-platform automation, authorization, and verifiable execution.
 
-The working philosophy is simple:
-
-> **Build with boundaries. Verify outcomes.**
-
-<details>
-<summary><strong>Engineering lab</strong></summary>
-<br>
-
-The portfolio sits alongside active experimentation in AI agents, Apple-platform automation, authorization boundaries, and verifiable execution.
-
-- [**caRINA**](https://github.com/leandro4979-hub/caRINA) — controlled agent execution and authorization work
-- [**Applications**](https://github.com/leandro4979-hub/Applications) — application experiments and prototypes
-- [**neuralforge**](https://github.com/leandro4979-hub/neuralforge) — AI / engineering experimentation
-- [**Openai**](https://github.com/leandro4979-hub/Openai) — OpenAI-related development work
-
-</details>
+| Project | Focus |
+| :--- | :--- |
+| [**caRINA**](https://github.com/leandro4979-hub/caRINA) | Controlled agent execution and authorization |
+| [**Applications**](https://github.com/leandro4979-hub/Applications) | Application experiments and prototypes |
+| [**neuralforge**](https://github.com/leandro4979-hub/neuralforge) | AI and engineering experimentation |
+| [**Openai**](https://github.com/leandro4979-hub/Openai) | OpenAI-related development work |
 
 ---
 
 <div align="center">
 
-### TRUSTED TRANSFORMATION INFRASTRUCTURE
+**Original venture concepts and Trusted Transformation Infrastructure framing · Leandro Fajardo**
 
-**Original concepts · Leandro Fajardo**
-
-[GitHub Profile](https://github.com/leandro4979-hub) · [Collaboration](https://github.com/leandro4979-hub/Leandro4979-hub/issues)
+*Build something useful. Make the outcome checkable.*
 
 </div>
