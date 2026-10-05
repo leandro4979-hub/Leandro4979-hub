@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Explore the flagship projects
-    url: https://github.com/leandro4979-hub?tab=repositories&q=carina
-    about: Check whether the idea already has a natural home.
+    url: https://github.com/leandro4979-hub?tab=repositories
+    about: Check the existing engineering work before proposing something new.
+  - name: Read the portfolio and proof standard
+    url: https://github.com/leandro4979-hub/Leandro4979-hub#03--the-standard-of-proof
+    about: See how ideas are expected to move from intent to bounded, verifiable outcomes.
