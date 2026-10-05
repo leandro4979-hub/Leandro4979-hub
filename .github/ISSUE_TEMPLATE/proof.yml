@@ -1,0 +1,129 @@
+name: Record a proof
+description: Preserve evidence from a completed bounded test, evaluation, or pilot.
+title: "[Proof]: "
+labels:
+  - proof
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form only after work has actually been run or observed.
+
+        A proof record should distinguish what was intended, what was authorized, what actually happened, and what evidence supports the conclusion.
+
+  - type: input
+    id: source
+    attributes:
+      label: Source issue, PR, or pilot
+      description: Link the idea, collaboration, pull request, or other record that led to this test.
+      placeholder: https://github.com/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim being tested
+      description: State the narrow claim this proof record evaluates.
+      placeholder: "Given X conditions, the system can..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: authority
+    attributes:
+      label: Authority and approved scope
+      description: Who authorized the test, and what actions or resources were explicitly in scope?
+      placeholder: |
+        Authorized by:
+        Allowed:
+        Prohibited:
+        Environment:
+    validations:
+      required: true
+
+  - type: textarea
+    id: procedure
+    attributes:
+      label: Procedure
+      description: Summarize what was actually done. Keep it reproducible and remove secrets.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Success criteria
+      description: What had to be true for the test to count as successful?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: Outcome
+      options:
+        - Confirmed
+        - Partially confirmed
+        - Failed
+        - Blocked
+        - Inconclusive
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link or summarize logs, test output, measurements, screenshots, commits, or other direct evidence. Remove secrets and personal data.
+      placeholder: |
+        Evidence:
+        Commit / build:
+        Measurements:
+        Reproduction notes:
+    validations:
+      required: true
+
+  - type: dropdown
+    id: evidence_class
+    attributes:
+      label: Evidence classification
+      options:
+        - Confirmed — directly observed and reproducible
+        - Historical — verified previously, not rechecked now
+        - Inferred — supported but not directly observed
+        - Missing — required evidence is unavailable
+    validations:
+      required: true
+
+  - type: textarea
+    id: deviations
+    attributes:
+      label: Deviations, failures, or surprises
+      description: What differed from the intended procedure or expected result?
+
+  - type: textarea
+    id: next
+    attributes:
+      label: Next decision
+      description: What should happen because of this evidence?
+      placeholder: Adopt, iterate, retest, expand scope, stop, or investigate...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: attestation
+    attributes:
+      label: Proof integrity
+      options:
+        - label: This record distinguishes observed evidence from assumptions.
+          required: true
+        - label: Sensitive credentials, personal data, and secrets have been removed.
+          required: true
+        - label: This record does not claim authorization beyond the scope described above.
+          required: true
