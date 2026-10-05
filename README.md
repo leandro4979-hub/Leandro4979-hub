@@ -1,110 +1,115 @@
 <div align="center">
 
-# Leandro Fajardo
+<img src="./assets/apple-valley-2026.svg" alt="Leandro Fajardo — Independent builder, Apple Valley, California, 2026. Private intelligence. Human authority. Verifiable action." width="100%" />
 
-### Build with boundaries. Verify outcomes.
+# Intelligence should earn your trust.
 
-**What if every transformation came with proof?**
+**I’m Leandro Fajardo. I build and explore systems that connect AI intent to accountable action.**
 
-I’m exploring systems that make it clear **who can act, what can change, and how we know it worked**—across local manufacturing, AI-assisted creativity, and adaptable buildings.
+Apple Valley, CA · Independent builder · 2026
 
-[Explore the concepts](#three-ideas-one-standard) · [Build a pilot with me](#help-turn-a-concept-into-evidence) · [Engineering lab](#engineering-lab)
-
-<img src="./assets/trusted-transformation-dashboard.svg" alt="Trusted Transformation Infrastructure: three venture concepts connected by authorization, controlled execution, and verifiable outcomes" width="100%" />
+[Explore the engineering](#01--the-engineering) &nbsp; / &nbsp; [See the bigger vision](#02--the-bigger-vision) &nbsp; / &nbsp; [Build with me](#04--the-next-move)
 
 </div>
 
 ---
 
-## Three ideas. One standard.
+## The throughline
 
-**Trusted Transformation Infrastructure** is the shared model behind this portfolio:
+An agent operating a device. A printer producing a part. An AI helping create a work. A retrofit changing a space.
 
-> An asset. An authorized actor. Clear rules. A controlled change. A result you can check.
+Each raises the same questions:
 
-### 01 / Make it nearby
-**Hyper-Local Micro-Manufacturing**
+**Who authorized the change? What are the limits? What proves the result?**
 
-Explore modular local production hubs for customized, low-volume goods.
+That is the thread connecting my engineering experiments and venture concepts. I call it **Trusted Transformation Infrastructure**: clear authority, bounded execution, and outcomes people can inspect.
 
-**First pilot:** qualify two local printers for one replacement part. Compare lead time, quality, landed cost, and repeatability. Record the material, machine, operator, and QA result.
+> **Build with boundaries. Verify outcomes.**
 
-**The question:** can a small local production cell deliver a useful part with a traceable quality record?
+## 01 / The engineering
 
-### 02 / Create with credit
-**Ethical Algorithmic Artistry**
+My engineering work explores **AI agents, native Apple workflows, and developer automation**. The focus is the path from a request to a useful, checkable result.
 
-Explore human + AI cultural creation with explicit permission, contributor identity, attribution, and provenance.
-
-**First pilot:** create one image, audio, or text artifact with a signed provenance manifest documenting its sources, permissions, and contributors.
-
-**The question:** can an AI-assisted work carry a clear, inspectable record of permission and credit?
-
-### 03 / Upgrade what exists
-**Adaptive Infrastructure Retrofits**
-
-Explore modular upgrades that give existing buildings new functionality, including kinetic facades.
-
-**First pilot:** test one reversible retrofit in a bounded zone. Document constraints, installation, inspection, and before/after functionality.
-
-**The question:** can an existing space gain a useful capability through a bounded, reversible change?
-
----
-
-## Where things stand
-
-| Defined | Next | Evidence |
-| :--- | :--- | :--- |
-| Three venture concepts and operating models | Select and run the first bounded pilot | Real-world validation pending |
-| Three initial pilot paths | Agree on measurable success criteria | No performance claims before results |
-
-These are **venture concepts with proposed pilot paths**. The next milestone is a completed pilot with an outcome others can inspect.
-
-## Why follow this work?
-
-Follow for the decisions behind turning these concepts into testable systems: what gets built, which assumptions get challenged, and what the evidence supports.
-
-The ideas worth sharing should be useful beyond one project:
-
-- **Permission before action:** define who can change what.
-- **Boundaries before scale:** start with one complete, measurable use case.
-- **Evidence after execution:** record the outcome, including failures and limitations.
-
-## Help turn a concept into evidence
-
-| If you are… | A useful starting point |
+| Explore | What it investigates |
 | :--- | :--- |
-| A **pilot partner** | Bring one real use case and help define success. |
-| A **technical contributor** | Help build, secure, or instrument a pilot. |
-| A **researcher or evaluator** | Challenge an assumption or propose a better measurement. |
+| [**caRINA →**](https://github.com/leandro4979-hub/caRINA) | Controlled agent execution and authorization |
+| [**Applications →**](https://github.com/leandro4979-hub/Applications) | Application experiments and prototypes |
+| [**neuralforge →**](https://github.com/leandro4979-hub/neuralforge) | AI and engineering experimentation |
+| [**Openai →**](https://github.com/leandro4979-hub/Openai) | OpenAI-related development work |
 
-**Have a use case?** Open an issue with the venture you’re interested in, the problem you see, and what a successful pilot would demonstrate.
+**Design priorities:** private processing where practical, explicit permissions, native interfaces, observable execution, and recovery when something fails.
+
+These repositories are a working lab. Check each project’s documentation for its implementation and current status.
+
+## 02 / The bigger vision
+
+The same control model extends beyond software. Three original venture concepts explore what happens when physical and creative transformations carry clear rules and evidence.
+
+### MAKE NEARBY
+#### Hyper-Local Micro-Manufacturing
+Modular local production hubs for customized, low-volume goods.
+
+**First proposed test:** two qualified local printers, one replacement part. Compare lead time, quality, landed cost, and repeatability—with a traceable QA record.
+
+### CREATE WITH CREDIT
+#### Ethical Algorithmic Artistry
+Human + AI cultural creation with explicit permission, contributor identity, attribution, and provenance.
+
+**First proposed test:** one image, audio, or text artifact with a signed manifest documenting sources, permissions, and contributors.
+
+### UPGRADE WHAT EXISTS
+#### Adaptive Infrastructure Retrofits
+Modular upgrades that bring new functionality to existing buildings, including kinetic facades.
+
+**First proposed test:** one reversible retrofit in a bounded zone. Document design constraints, installation, inspection, and before/after functionality.
+
+## 03 / The standard of proof
+
+```text
+DEFINE THE ASSET
+      ↓
+ESTABLISH AUTHORITY
+      ↓
+SET THE BOUNDARIES
+      ↓
+EXECUTE THE CHANGE
+      ↓
+VERIFY THE OUTCOME
+```
+
+| Portfolio stage | Current position |
+| :--- | :--- |
+| **Concepts** | Three venture theses and operating models defined |
+| **Pilot plans** | Three initial test paths proposed |
+| **Real-world validation** | Pending the first completed pilot |
+
+**The next milestone:** one bounded pilot, measurable success criteria, and a durable record of what actually happened.
+
+## 04 / The next move
+
+**Bring one problem worth testing.**
+
+I’m interested in collaborators who can turn a defined idea into evidence:
+
+- **Pilot partners:** bring a real use case, constraints, and success criteria.
+- **Builders:** help implement, secure, or instrument the test.
+- **Evaluators:** challenge the assumptions and improve the measurement.
+
+Start with **the project, the problem, and the result you would want to see**.
 
 <div align="center">
 
-**[Start a collaboration →](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=collaboration.yml)**
+### [Let’s build the first proof →](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=collaboration.yml)
 
-[Suggest an idea](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=idea.yml) · [Explore my repositories](https://github.com/leandro4979-hub?tab=repositories)
-
-</div>
-
-## Engineering lab
-
-Alongside the venture concepts, I explore AI agents, Apple-platform automation, authorization, and verifiable execution.
-
-| Project | Focus |
-| :--- | :--- |
-| [**caRINA**](https://github.com/leandro4979-hub/caRINA) | Controlled agent execution and authorization |
-| [**Applications**](https://github.com/leandro4979-hub/Applications) | Application experiments and prototypes |
-| [**neuralforge**](https://github.com/leandro4979-hub/neuralforge) | AI and engineering experimentation |
-| [**Openai**](https://github.com/leandro4979-hub/Openai) | OpenAI-related development work |
+[Explore the repositories](https://github.com/leandro4979-hub?tab=repositories) · [Suggest a direction](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=idea.yml)
 
 ---
 
-<div align="center">
+**LEANDRO FAJARDO**  
+Apple Valley, California · 2026
 
-**Original venture concepts and Trusted Transformation Infrastructure framing · Leandro Fajardo**
+*From the High Desert. Toward what comes next.*
 
-*Build something useful. Make the outcome checkable.*
+<sub>Original venture concepts and Trusted Transformation Infrastructure framing by Leandro Fajardo.</sub>
 
 </div>
