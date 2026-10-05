@@ -108,6 +108,8 @@ BOUNDED TEST
 COLLABORATION / PILOT
   ↓
 VERIFIED OUTCOME
+  ↓
+PROOF RECORD
 ```
 
 I’m especially interested in:
@@ -118,13 +120,15 @@ I’m especially interested in:
 - **Design partners:** improve product, UX, accessibility, and workflow quality.
 - **Research partners:** bring technical or applied evidence that changes the design.
 
-An idea issue is **exploration, not a commitment**. A collaboration issue is the point where ownership, authority, boundaries, contribution, and proof need to become explicit.
+An idea issue is **exploration, not a commitment**. A collaboration issue is the point where ownership, authority, boundaries, contribution, and proof need to become explicit. After a bounded test or pilot runs, preserve the result as a [**Proof Record →**](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=proof.yml) so claims remain tied to inspectable evidence.
+
+For contribution and reporting standards, see [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md).
 
 <div align="center">
 
 ### [Let’s build the first proof →](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=collaboration.yml)
 
-[Explore the repositories](https://github.com/leandro4979-hub?tab=repositories) · [Signal an idea](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=idea.yml)
+[Explore the repositories](https://github.com/leandro4979-hub?tab=repositories) · [Signal an idea](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=idea.yml) · [Record a proof](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=proof.yml)
 
 ---
 
