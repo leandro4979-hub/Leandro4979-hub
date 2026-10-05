@@ -89,19 +89,42 @@ VERIFY THE OUTCOME
 
 **Bring one problem worth testing.**
 
-I’m interested in collaborators who can turn a defined idea into evidence:
+There are two ways in:
+
+| If you have... | Start here | Goal |
+| :--- | :--- | :--- |
+| A problem, observation, hypothesis, or product direction that still needs evidence | [**Signal an idea →**](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=idea.yml) | Clarify the problem, evidence, user, smallest test, and next learning step |
+| A real use case with a contribution, authority, boundaries, and success criteria | [**Build together →**](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=collaboration.yml) | Define a bounded collaboration or pilot that can produce inspectable proof |
+
+The intended path is simple:
+
+```text
+IDEA
+  ↓
+EVIDENCE
+  ↓
+BOUNDED TEST
+  ↓
+COLLABORATION / PILOT
+  ↓
+VERIFIED OUTCOME
+```
+
+I’m especially interested in:
 
 - **Pilot partners:** bring a real use case, constraints, and success criteria.
-- **Builders:** help implement, secure, or instrument the test.
-- **Evaluators:** challenge the assumptions and improve the measurement.
+- **Builders:** help implement, secure, instrument, or integrate the test.
+- **Evaluators:** challenge assumptions and improve the measurement.
+- **Design partners:** improve product, UX, accessibility, and workflow quality.
+- **Research partners:** bring technical or applied evidence that changes the design.
 
-Start with **the project, the problem, and the result you would want to see**.
+An idea issue is **exploration, not a commitment**. A collaboration issue is the point where ownership, authority, boundaries, contribution, and proof need to become explicit.
 
 <div align="center">
 
 ### [Let’s build the first proof →](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=collaboration.yml)
 
-[Explore the repositories](https://github.com/leandro4979-hub?tab=repositories) · [Suggest a direction](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=idea.yml)
+[Explore the repositories](https://github.com/leandro4979-hub?tab=repositories) · [Signal an idea](https://github.com/leandro4979-hub/Leandro4979-hub/issues/new?template=idea.yml)
 
 ---
 

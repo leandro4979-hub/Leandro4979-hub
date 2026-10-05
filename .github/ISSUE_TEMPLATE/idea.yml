@@ -1,44 +1,173 @@
 name: Signal an idea
-description: Share a concrete problem or product idea that fits the mission.
+description: Share a concrete problem, opportunity, or product direction that may be worth testing.
 title: "[Idea]: "
 labels:
   - idea
+
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form when you have a direction worth exploring but the collaboration or pilot is not yet defined.
+
+        A strong idea does not need a finished solution. It should make the problem, affected user, evidence, and next learning step clear enough to decide whether it deserves a deeper test.
+
+        If you already have a real use case, clear contribution, authority, boundaries, and success criteria, use **Build together** instead.
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Idea stage
+      description: How mature is this direction today?
+      options:
+        - Observation — I see a recurring problem or unmet need
+        - Hypothesis — I have a plausible direction worth testing
+        - Concept — I can describe a product, workflow, or system
+        - Evidence-backed — I have examples, users, data, or prior testing
+        - Ready to graduate — this may already be suitable for a collaboration/pilot
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Choose the closest fit.
+      options:
+        - Trusted AI / agent authorization
+        - Apple platforms / native workflows
+        - Developer automation / infrastructure
+        - Privacy-first AI
+        - Accessibility
+        - MAKE NEARBY — hyper-local micro-manufacturing
+        - CREATE WITH CREDIT — ethical algorithmic artistry
+        - UPGRADE WHAT EXISTS — adaptive infrastructure retrofits
+        - Cross-project / other
+    validations:
+      required: true
+
   - type: textarea
     id: problem
     attributes:
-      label: Problem
-      description: Who experiences this problem, and what happens today?
+      label: Problem or opportunity
+      description: Who experiences this, what happens today, and why is the current state not good enough?
+      placeholder: |
+        Who:
+        Current situation:
+        Friction / risk / missed opportunity:
+        Why it matters:
     validations:
       required: true
+
   - type: textarea
-    id: change
+    id: desired_change
     attributes:
       label: Desired change
-      description: Describe the smallest valuable outcome.
+      description: Describe the smallest meaningful improvement—not the entire future vision.
+      placeholder: |
+        Today...
+        After this change...
+        The smallest valuable outcome would be...
     validations:
       required: true
+
   - type: textarea
     id: evidence
     attributes:
-      label: Evidence or examples
-      description: Add links, screenshots, prior art, or observations if available.
-  - type: dropdown
-    id: ecosystem
+      label: Evidence, examples, or prior art
+      description: What makes you think this is real? Share observations, users, data, links, screenshots, comparable products, research, or prior attempts.
+      placeholder: |
+        Evidence:
+        Examples:
+        Prior art:
+        What remains uncertain:
+    validations:
+      required: true
+
+  - type: textarea
+    id: who_benefits
     attributes:
-      label: Ecosystem
+      label: Who benefits?
+      description: Name the primary user, operator, organization, or community that would benefit.
+      placeholder: |
+        Primary user:
+        Context:
+        What gets easier, safer, faster, cheaper, or more trustworthy:
+    validations:
+      required: true
+
+  - type: textarea
+    id: test
+    attributes:
+      label: Smallest useful test
+      description: What could we test before committing to a full build?
+      placeholder: |
+        Test:
+        What we would measure:
+        What result would make this worth continuing:
+    validations:
+      required: true
+
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Human control and boundaries
+      description: What decisions or actions should remain explicitly human-controlled? Note any obvious privacy, safety, authorization, or scope limits.
+      placeholder: |
+        Human approval required for:
+        Must never do automatically:
+        Sensitive data / systems / environments involved:
+    validations:
+      required: true
+
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks or failure modes
+      description: What could make this unsafe, misleading, impractical, too expensive, or not worth pursuing?
+      placeholder: |
+        Main risks:
+        Wrong assumptions:
+        What would make us stop:
+
+  - type: input
+    id: links
+    attributes:
+      label: Relevant links
+      description: Optional. Share a repository, paper, demo, design, product, dataset, or other useful reference.
+      placeholder: https://...
+
+  - type: dropdown
+    id: next_move
+    attributes:
+      label: Best next move
+      description: What would create the most useful new evidence?
       options:
-        - OpenClaw
-        - CARINA / MAYA
-        - Apple platforms
-        - General agent tooling
-        - Other
+        - Research the problem more deeply
+        - Talk to potential users or operators
+        - Review existing repositories / prior art
+        - Build a tiny prototype
+        - Run a bounded experiment
+        - Define a pilot and move to collaboration
+        - Not sure yet
+    validations:
+      required: true
+
   - type: checkboxes
     id: principles
     attributes:
-      label: System principles
+      label: Submission principles
       options:
-        - label: This idea can preserve human control.
+        - label: This idea can preserve meaningful human control over consequential actions.
           required: true
-        - label: This idea can be tested or verified.
+        - label: This idea can be tested with observable evidence rather than judged only by opinion.
           required: true
+        - label: I understand that an idea issue is for exploration and does not imply a commitment to build, fund, or adopt it.
+          required: true
+        - label: I will not post credentials, private keys, personal data, or other secrets in this public issue.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        **Graduation path:** if the idea becomes concrete enough to define a real use case, contribution, authority, boundaries, and success criteria, move it into the **Build together** collaboration flow.
