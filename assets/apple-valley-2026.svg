@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="560" viewBox="0 0 1440 560" role="img" aria-labelledby="title desc">
+<title id="title">Leandro Fajardo — Apple Valley, California — 2026</title>
+<desc id="desc">Dark technology banner with cyan orbital geometry above a warm desert horizon. Private intelligence. Human authority. Verifiable action.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080d19"/><stop offset="1" stop-color="#142533"/></linearGradient>
+<linearGradient id="horizon" x2="1"><stop stop-color="#fbad74"/><stop offset=".55" stop-color="#877a92"/><stop offset="1" stop-color="#5eead4"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#5eead4" stop-opacity=".22"/><stop offset="1" stop-color="#5eead4" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#8cc2cd" stroke-opacity=".06"/></pattern>
+</defs>
+<rect width="1440" height="560" rx="24" fill="url(#bg)"/>
+<rect width="1440" height="560" rx="24" fill="url(#grid)"/>
+<circle cx="1150" cy="240" r="260" fill="url(#glow)"/>
+<g fill="none" stroke="#5eead4"><circle cx="1150" cy="240" r="139" opacity=".35"/><circle cx="1150" cy="240" r="97" opacity=".6"/><ellipse cx="1150" cy="240" rx="190" ry="56" transform="rotate(-35 1150 240)" opacity=".7"/><path d="M1150 82V398M992 240H1308" opacity=".2"/></g>
+<circle cx="1150" cy="240" r="12" fill="#5eead4"/>
+<circle cx="1259" cy="154" r="6" fill="#fbbf84"/>
+<path d="M0 472L140 426L283 462L442 397L601 450L738 421L895 473L1080 421L1266 464L1440 406V560H0Z" fill="#182a36"/>
+<path d="M0 472L140 426L283 462L442 397L601 450L738 421L895 473L1080 421L1266 464L1440 406" fill="none" stroke="url(#horizon)" stroke-width="2"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+<text x="80" y="82" fill="#5eead4" font-size="17" letter-spacing="4">INDEPENDENT BUILDER / 2026</text>
+<text x="76" y="182" fill="#f3f6fa" font-size="68" font-weight="700" letter-spacing="-2">LEANDRO FAJARDO</text>
+<text x="80" y="240" fill="#c2d0dd" font-size="26">From the High Desert. Toward what comes next.</text>
+<text x="80" y="313" fill="#f3f6fa" font-size="20">PRIVATE INTELLIGENCE.</text>
+<text x="80" y="347" fill="#f3f6fa" font-size="20">HUMAN AUTHORITY.</text>
+<text x="80" y="381" fill="#f3f6fa" font-size="20">VERIFIABLE ACTION.</text>
+<text x="80" y="516" fill="#fbbf84" font-size="16" letter-spacing="3">APPLE VALLEY, CALIFORNIA</text>
+<text x="1160" y="516" fill="#9cb6c4" font-size="14" letter-spacing="2">BUILD → VERIFY</text>
+</g></svg>
